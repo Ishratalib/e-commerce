@@ -273,5 +273,5 @@ Use your own local credentials when configuring the project.
 
 **Ishrat Talib**
 
-BS Computer Science — Bahria University Karachi Campus
+BS Computer Science —
 MS Computer Science
