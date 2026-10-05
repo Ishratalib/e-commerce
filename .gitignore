@@ -1,0 +1,30 @@
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Database credentials
+config/database.php
+
+# Stripe secrets
+config/stripe.php
+stripe_config.php
+
+# Uploaded files
+public/uploads/
+uploads/
+
+# Dependencies
+vendor/
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
