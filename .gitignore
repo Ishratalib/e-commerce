@@ -10,10 +10,6 @@ config/database.php
 config/stripe.php
 stripe_config.php
 
-# Uploaded files
-public/uploads/
-uploads/
-
 # Dependencies
 vendor/
 
