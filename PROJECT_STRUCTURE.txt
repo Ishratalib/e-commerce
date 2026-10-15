@@ -1,0 +1,2087 @@
+﻿e-commerce
+|-- admin
+|   |-- assets
+|   |   |-- css
+|   |   |   |-- material-dashboard.css
+|   |   |   |-- material-dashboard.css.map
+|   |   |   |-- material-dashboard.min.css
+|   |   |   |-- nucleo-icons.css
+|   |   |   |-- nucleo-svg.css
+|   |   |-- fonts
+|   |   |   |-- nucleo.eot
+|   |   |   |-- nucleo.ttf
+|   |   |   |-- nucleo.woff
+|   |   |   |-- nucleo.woff2
+|   |   |   |-- nucleo-icons.eot
+|   |   |   |-- nucleo-icons.svg
+|   |   |   |-- nucleo-icons.ttf
+|   |   |   |-- nucleo-icons.woff
+|   |   |   |-- nucleo-icons.woff2
+|   |   |-- img
+|   |   |   |-- icons
+|   |   |   |   |-- flags
+|   |   |   |   |   |-- AU.png
+|   |   |   |   |   |-- BR.png
+|   |   |   |   |   |-- DE.png
+|   |   |   |   |   |-- GB.png
+|   |   |   |   |   |-- US.png
+|   |   |   |-- illustrations
+|   |   |   |   |-- chat.png
+|   |   |   |   |-- danger-chat-ill.png
+|   |   |   |   |-- dark-lock-ill.png
+|   |   |   |   |-- error-404.png
+|   |   |   |   |-- error-500.png
+|   |   |   |   |-- illustration-lock.jpg
+|   |   |   |   |-- illustration-reset.jpg
+|   |   |   |   |-- illustration-signin.jpg
+|   |   |   |   |-- illustration-signup.jpg
+|   |   |   |   |-- illustration-verification.jpg
+|   |   |   |   |-- lock.png
+|   |   |   |   |-- pattern-tree.svg
+|   |   |   |   |-- rocket-white.png
+|   |   |   |-- logos
+|   |   |   |   |-- gray-logos
+|   |   |   |   |   |-- logo-coinbase.svg
+|   |   |   |   |   |-- logo-nasa.svg
+|   |   |   |   |   |-- logo-netflix.svg
+|   |   |   |   |   |-- logo-pinterest.svg
+|   |   |   |   |   |-- logo-spotify.svg
+|   |   |   |   |   |-- logo-vodafone.svg
+|   |   |   |-- small-logos
+|   |   |   |   |-- bootstrap.svg
+|   |   |   |   |-- creative-tim.svg
+|   |   |   |   |-- devto.svg
+|   |   |   |   |-- github.svg
+|   |   |   |   |-- google-webdev.svg
+|   |   |   |   |-- icon-bulb.svg
+|   |   |   |   |-- icon-sun-cloud.png
+|   |   |   |   |-- logo-asana.svg
+|   |   |   |   |-- logo-atlassian.svg
+|   |   |   |   |-- logo-invision.svg
+|   |   |   |   |-- logo-jira.svg
+|   |   |   |   |-- logo-slack.svg
+|   |   |   |   |-- logo-spotify.svg
+|   |   |   |   |-- logo-xd.svg
+|   |   |   |-- apple-icon.png
+|   |   |   |-- bg-pricing.jpg
+|   |   |   |-- bg-smart-home-1.jpg
+|   |   |   |-- bg-smart-home-2.jpg
+|   |   |   |-- bruce-mars.jpg
+|   |   |   |-- down-arrow.svg
+|   |   |   |-- down-arrow-dark.svg
+|   |   |   |-- down-arrow-white.svg
+|   |   |   |-- drake.jpg
+|   |   |   |-- favicon.png
+|   |   |   |-- home-decor-1.jpg
+|   |   |   |-- home-decor-2.jpg
+|   |   |   |-- home-decor-3.jpg
+|   |   |   |-- ivana-square.jpg
+|   |   |   |-- ivana-squares.jpg
+|   |   |   |-- ivancik.jpg
+|   |   |   |-- kal-visuals-square.jpg
+|   |   |   |-- logo-ct.png
+|   |   |   |-- logo-ct-dark.png
+|   |   |   |-- marie.jpg
+|   |   |   |-- meeting.jpg
+|   |   |   |-- office-dark.jpg
+|   |   |   |-- product-12.jpg
+|   |   |   |-- team-1.jpg
+|   |   |   |-- team-2.jpg
+|   |   |   |-- team-3.jpg
+|   |   |   |-- team-4.jpg
+|   |   |   |-- team-5.jpg
+|   |   |   |-- vr-bg.jpg
+|   |   |-- js
+|   |   |   |-- core
+|   |   |   |   |-- bootstrap.bundle.min.js
+|   |   |   |   |-- bootstrap.min.js
+|   |   |   |   |-- popper.min.js
+|   |   |   |-- plugins
+|   |   |   |   |-- bootstrap-notify.js
+|   |   |   |   |-- Chart.extension.js
+|   |   |   |   |-- chartjs.min.js
+|   |   |   |   |-- countup.min.js
+|   |   |   |   |-- perfect-scrollbar.min.js
+|   |   |   |   |-- smooth-scrollbar.min.js
+|   |   |   |   |-- world.js
+|   |   |   |-- material-dashboard.js
+|   |   |   |-- material-dashboard.js.map
+|   |   |   |-- material-dashboard.min.js
+|   |   |-- scss
+|   |   |   |-- material-dashboard
+|   |   |   |   |-- badges
+|   |   |   |   |   |-- _badge.scss
+|   |   |   |   |   |-- _badge-circle.scss
+|   |   |   |   |   |-- _badge-dot.scss
+|   |   |   |   |   |-- _badge-floating.scss
+|   |   |   |   |-- bootstrap
+|   |   |   |   |   |-- forms
+|   |   |   |   |   |   |-- _floating-labels.scss
+|   |   |   |   |   |   |-- _form-check.scss
+|   |   |   |   |   |   |-- _form-control.scss
+|   |   |   |   |   |   |-- _form-range.scss
+|   |   |   |   |   |   |-- _form-select.scss
+|   |   |   |   |   |   |-- _form-text.scss
+|   |   |   |   |   |   |-- _input-group.scss
+|   |   |   |   |   |   |-- _labels.scss
+|   |   |   |   |   |   |-- _validation.scss
+|   |   |   |   |   |-- helpers
+|   |   |   |   |   |   |-- _clearfix.scss
+|   |   |   |   |   |   |-- _color-bg.scss
+|   |   |   |   |   |   |-- _colored-links.scss
+|   |   |   |   |   |   |-- _focus-ring.scss
+|   |   |   |   |   |   |-- _icon-link.scss
+|   |   |   |   |   |   |-- _position.scss
+|   |   |   |   |   |   |-- _ratio.scss
+|   |   |   |   |   |   |-- _stacks.scss
+|   |   |   |   |   |   |-- _stretched-link.scss
+|   |   |   |   |   |   |-- _text-truncation.scss
+|   |   |   |   |   |   |-- _visually-hidden.scss
+|   |   |   |   |   |   |-- _vr.scss
+|   |   |   |   |   |-- mixins
+|   |   |   |   |   |   |-- _alert.scss
+|   |   |   |   |   |   |-- _backdrop.scss
+|   |   |   |   |   |   |-- _banner.scss
+|   |   |   |   |   |   |-- _border-radius.scss
+|   |   |   |   |   |   |-- _box-shadow.scss
+|   |   |   |   |   |   |-- _breakpoints.scss
+|   |   |   |   |   |   |-- _buttons.scss
+|   |   |   |   |   |   |-- _caret.scss
+|   |   |   |   |   |   |-- _clearfix.scss
+|   |   |   |   |   |   |-- _color-mode.scss
+|   |   |   |   |   |   |-- _color-scheme.scss
+|   |   |   |   |   |   |-- _container.scss
+|   |   |   |   |   |   |-- _deprecate.scss
+|   |   |   |   |   |   |-- _forms.scss
+|   |   |   |   |   |   |-- _gradients.scss
+|   |   |   |   |   |   |-- _grid.scss
+|   |   |   |   |   |   |-- _image.scss
+|   |   |   |   |   |   |-- _list-group.scss
+|   |   |   |   |   |   |-- _lists.scss
+|   |   |   |   |   |   |-- _pagination.scss
+|   |   |   |   |   |   |-- _reset-text.scss
+|   |   |   |   |   |   |-- _resize.scss
+|   |   |   |   |   |   |-- _table-variants.scss
+|   |   |   |   |   |   |-- _text-truncate.scss
+|   |   |   |   |   |   |-- _transition.scss
+|   |   |   |   |   |   |-- _utilities.scss
+|   |   |   |   |   |   |-- _visually-hidden.scss
+|   |   |   |   |   |-- tests
+|   |   |   |   |   |   |-- mixins
+|   |   |   |   |   |   |   |-- _auto-import-of-variables-dark.test.scss
+|   |   |   |   |   |   |   |-- _color-modes.test.scss
+|   |   |   |   |   |   |   |-- _media-query-color-mode-full.test.scss
+|   |   |   |   |   |   |   |-- _utilities.test.scss
+|   |   |   |   |   |   |-- sass-true
+|   |   |   |   |   |   |   |-- register.js
+|   |   |   |   |   |   |   |-- runner.js
+|   |   |   |   |   |   |-- utilities
+|   |   |   |   |   |   |   |-- _api.test.scss
+|   |   |   |   |   |   |-- jasmine.js
+|   |   |   |   |   |-- utilities
+|   |   |   |   |   |   |-- _api.scss
+|   |   |   |   |   |-- _accordion.scss
+|   |   |   |   |   |-- _alert.scss
+|   |   |   |   |   |-- _badge.scss
+|   |   |   |   |   |-- _breadcrumb.scss
+|   |   |   |   |   |-- _button-group.scss
+|   |   |   |   |   |-- _buttons.scss
+|   |   |   |   |   |-- _card.scss
+|   |   |   |   |   |-- _carousel.scss
+|   |   |   |   |   |-- _close.scss
+|   |   |   |   |   |-- _containers.scss
+|   |   |   |   |   |-- _dropdown.scss
+|   |   |   |   |   |-- _forms.scss
+|   |   |   |   |   |-- _functions.scss
+|   |   |   |   |   |-- _grid.scss
+|   |   |   |   |   |-- _helpers.scss
+|   |   |   |   |   |-- _images.scss
+|   |   |   |   |   |-- _list-group.scss
+|   |   |   |   |   |-- _maps.scss
+|   |   |   |   |   |-- _mixins.scss
+|   |   |   |   |   |-- _modal.scss
+|   |   |   |   |   |-- _nav.scss
+|   |   |   |   |   |-- _navbar.scss
+|   |   |   |   |   |-- _offcanvas.scss
+|   |   |   |   |   |-- _pagination.scss
+|   |   |   |   |   |-- _placeholders.scss
+|   |   |   |   |   |-- _popover.scss
+|   |   |   |   |   |-- _progress.scss
+|   |   |   |   |   |-- _reboot.scss
+|   |   |   |   |   |-- _root.scss
+|   |   |   |   |   |-- _spinners.scss
+|   |   |   |   |   |-- _tables.scss
+|   |   |   |   |   |-- _toasts.scss
+|   |   |   |   |   |-- _tooltip.scss
+|   |   |   |   |   |-- _transitions.scss
+|   |   |   |   |   |-- _type.scss
+|   |   |   |   |   |-- _utilities.scss
+|   |   |   |   |   |-- _variables.scss
+|   |   |   |   |   |-- _variables-dark.scss
+|   |   |   |   |   |-- bootstrap.scss
+|   |   |   |   |   |-- bootstrap-grid.scss
+|   |   |   |   |   |-- bootstrap-reboot.scss
+|   |   |   |   |   |-- bootstrap-utilities.scss
+|   |   |   |   |-- cards
+|   |   |   |   |   |-- card-background.scss
+|   |   |   |   |   |-- card-blog.scss
+|   |   |   |   |   |-- card-horizontal.scss
+|   |   |   |   |   |-- card-pricing.scss
+|   |   |   |   |   |-- card-profile.scss
+|   |   |   |   |   |-- card-rotate.scss
+|   |   |   |   |-- custom
+|   |   |   |   |   |-- _styles.scss
+|   |   |   |   |   |-- _variables.scss
+|   |   |   |   |-- forms
+|   |   |   |   |   |-- _form-check.scss
+|   |   |   |   |   |-- _forms.scss
+|   |   |   |   |   |-- _form-select.scss
+|   |   |   |   |   |-- _form-switch.scss
+|   |   |   |   |   |-- _input-group.scss
+|   |   |   |   |   |-- _inputs.scss
+|   |   |   |   |   |-- _labels.scss
+|   |   |   |   |-- mixins
+|   |   |   |   |   |-- _badge.scss
+|   |   |   |   |   |-- _buttons.scss
+|   |   |   |   |   |-- _colored-shadows.scss
+|   |   |   |   |   |-- _hover.scss
+|   |   |   |   |   |-- _social-buttons.scss
+|   |   |   |   |   |-- _vendor.scss
+|   |   |   |   |   |-- mixins.scss
+|   |   |   |   |-- plugins
+|   |   |   |   |   |-- free
+|   |   |   |   |   |   |-- _flatpickr.scss
+|   |   |   |   |   |   |-- _nouislider.scss
+|   |   |   |   |   |   |-- _perfect-scrollbar.scss
+|   |   |   |   |   |   |-- _prism.scss
+|   |   |   |   |   |   |-- plugins.scss
+|   |   |   |   |   |-- pro
+|   |   |   |   |   |   |-- _carousel-slick.scss
+|   |   |   |   |   |   |-- _choices.scss
+|   |   |   |   |   |   |-- _datatable.scss
+|   |   |   |   |   |   |-- _datatable-extend.scss
+|   |   |   |   |   |   |-- _dragula.scss
+|   |   |   |   |   |   |-- _dropzone.scss
+|   |   |   |   |   |   |-- _fullcalendar.scss
+|   |   |   |   |   |   |-- _fullcalendar-extend.scss
+|   |   |   |   |   |   |-- _glidejs.scss
+|   |   |   |   |   |   |-- _highlight.scss
+|   |   |   |   |   |   |-- _kanban.scss
+|   |   |   |   |   |   |-- _leaflet.scss
+|   |   |   |   |   |   |-- _list-check.scss
+|   |   |   |   |   |   |-- _photoswipe.scss
+|   |   |   |   |   |   |-- _quill.scss
+|   |   |   |   |   |   |-- _rating-widget.scss
+|   |   |   |   |   |   |-- _sweetalert2.scss
+|   |   |   |   |   |   |-- _sweetalert2-extend.scss
+|   |   |   |   |   |   |-- _vector-map.scss
+|   |   |   |   |   |   |-- multi-step.scss
+|   |   |   |   |   |   |-- plugins-extend.scss
+|   |   |   |   |-- variables
+|   |   |   |   |   |-- _animations.scss
+|   |   |   |   |   |-- _avatars.scss
+|   |   |   |   |   |-- _badge.scss
+|   |   |   |   |   |-- _breadcrumb.scss
+|   |   |   |   |   |-- _cards.scss
+|   |   |   |   |   |-- _cards-extend.scss
+|   |   |   |   |   |-- _choices.scss
+|   |   |   |   |   |-- _dark-version.scss
+|   |   |   |   |   |-- _dropdowns.scss
+|   |   |   |   |   |-- _fixed-plugin.scss
+|   |   |   |   |   |-- _form-switch.scss
+|   |   |   |   |   |-- _full-calendar.scss
+|   |   |   |   |   |-- _header.scss
+|   |   |   |   |   |-- _info-areas.scss
+|   |   |   |   |   |-- _misc.scss
+|   |   |   |   |   |-- _misc-extend.scss
+|   |   |   |   |   |-- _navbar.scss
+|   |   |   |   |   |-- _navbar-vertical.scss
+|   |   |   |   |   |-- _pagination.scss
+|   |   |   |   |   |-- _ripple.scss
+|   |   |   |   |   |-- _rtl.scss
+|   |   |   |   |   |-- _social-buttons.scss
+|   |   |   |   |   |-- _table.scss
+|   |   |   |   |   |-- _timeline.scss
+|   |   |   |   |   |-- _utilities.scss
+|   |   |   |   |   |-- _utilities-extend.scss
+|   |   |   |   |   |-- _virtual-reality.scss
+|   |   |   |   |-- _accordion.scss
+|   |   |   |   |-- _alert.scss
+|   |   |   |   |-- _avatars.scss
+|   |   |   |   |-- _backgrounds.scss
+|   |   |   |   |-- _badge.scss
+|   |   |   |   |-- _breadcrumbs.scss
+|   |   |   |   |-- _buttons.scss
+|   |   |   |   |-- _cards.scss
+|   |   |   |   |-- _cards-extend.scss
+|   |   |   |   |-- _components.scss
+|   |   |   |   |-- _dark-version.scss
+|   |   |   |   |-- _dropdown.scss
+|   |   |   |   |-- _dropdown-extend.scss
+|   |   |   |   |-- _dropup.scss
+|   |   |   |   |-- _fixed-plugin.scss
+|   |   |   |   |-- _floating-elements.scss
+|   |   |   |   |-- _footer.scss
+|   |   |   |   |-- _forms.scss
+|   |   |   |   |-- _gradients.scss
+|   |   |   |   |-- _header.scss
+|   |   |   |   |-- _icons.scss
+|   |   |   |   |-- _info-areas.scss
+|   |   |   |   |-- _list-check.scss
+|   |   |   |   |-- _misc.scss
+|   |   |   |   |-- _misc-extend.scss
+|   |   |   |   |-- _nav.scss
+|   |   |   |   |-- _navbar.scss
+|   |   |   |   |-- _navbar-vertical.scss
+|   |   |   |   |-- _pagination.scss
+|   |   |   |   |-- _popovers.scss
+|   |   |   |   |-- _progress.scss
+|   |   |   |   |-- _ripple.scss
+|   |   |   |   |-- _rtl.scss
+|   |   |   |   |-- _rtl-extend.scss
+|   |   |   |   |-- _social-buttons.scss
+|   |   |   |   |-- _tables.scss
+|   |   |   |   |-- _tilt.scss
+|   |   |   |   |-- _timeline.scss
+|   |   |   |   |-- _tooltips.scss
+|   |   |   |   |-- _typography.scss
+|   |   |   |   |-- _utilities.scss
+|   |   |   |   |-- _utilities-extend.scss
+|   |   |   |   |-- _variables.scss
+|   |   |   |   |-- theme.scss
+|   |   |   |   |-- theme-pro.scss
+|   |   |   |-- material-dashboard.scss
+|   |-- categories
+|   |   |-- create.php
+|   |   |-- edit.php
+|   |   |-- index.php
+|   |-- orders
+|   |   |-- detail.php
+|   |   |-- index.php
+|   |-- products
+|   |   |-- create.php
+|   |   |-- edit.php
+|   |   |-- index.php
+|   |-- users
+|   |   |-- index.php
+|   |-- index.php
+|   |-- login.php
+|   |-- profile.php
+|   |-- register.php
+|   |-- reports.php
+|-- config
+|   |-- database.php
+|   |-- paypal.php
+|   |-- smtp.php
+|   |-- stripe.php
+|-- core
+|   |-- Auth.php
+|   |-- Database.php
+|   |-- Mailer.php
+|   |-- Session.php
+|   |-- Validator.php
+|-- database
+|   |-- sql database.sql
+|-- includes
+|   |-- admin-footer.php
+|   |-- admin-header.php
+|   |-- admin-sidenavbar.php
+|   |-- footer.php
+|   |-- header.php
+|-- public
+|   |-- assets
+|   |   |-- css
+|   |   |   |-- demos
+|   |   |   |   |-- demo-10.css
+|   |   |   |   |-- demo-11.css
+|   |   |   |   |-- demo-12.css
+|   |   |   |   |-- demo-13.css
+|   |   |   |   |-- demo-14.css
+|   |   |   |   |-- demo-15.css
+|   |   |   |   |-- demo-16.css
+|   |   |   |   |-- demo-17.css
+|   |   |   |   |-- demo-18.css
+|   |   |   |   |-- demo-19.css
+|   |   |   |   |-- demo-2.css
+|   |   |   |   |-- demo-20.css
+|   |   |   |   |-- demo-21.css
+|   |   |   |   |-- demo-22.css
+|   |   |   |   |-- demo-23.css
+|   |   |   |   |-- demo-24.css
+|   |   |   |   |-- demo-3.css
+|   |   |   |   |-- demo-4.css
+|   |   |   |   |-- demo-5.css
+|   |   |   |   |-- demo-6.css
+|   |   |   |   |-- demo-7.css
+|   |   |   |   |-- demo-8.css
+|   |   |   |   |-- demo-9.css
+|   |   |   |-- plugins
+|   |   |   |   |-- magnific-popup
+|   |   |   |   |   |-- magnific-popup.css
+|   |   |   |   |-- nouislider
+|   |   |   |   |   |-- nouislider.css
+|   |   |   |   |-- owl-carousel
+|   |   |   |   |   |-- owl.carousel.css
+|   |   |   |   |-- jquery.countdown.css
+|   |   |   |-- skins
+|   |   |   |   |-- skin-demo-10.css
+|   |   |   |   |-- skin-demo-13.css
+|   |   |   |   |-- skin-demo-14.css
+|   |   |   |   |-- skin-demo-17.css
+|   |   |   |   |-- skin-demo-19.css
+|   |   |   |   |-- skin-demo-2.css
+|   |   |   |   |-- skin-demo-20.css
+|   |   |   |   |-- skin-demo-21.css
+|   |   |   |   |-- skin-demo-22.css
+|   |   |   |   |-- skin-demo-23.css
+|   |   |   |   |-- skin-demo-24.css
+|   |   |   |   |-- skin-demo-3.css
+|   |   |   |   |-- skin-demo-4.css
+|   |   |   |   |-- skin-demo-5.css
+|   |   |   |   |-- skin-demo-6.css
+|   |   |   |   |-- skin-demo-7.css
+|   |   |   |   |-- skin-demo-8.css
+|   |   |   |   |-- skin-demo-9.css
+|   |   |   |-- bootstrap.min.css
+|   |   |   |-- main.min.css
+|   |   |   |-- style.css
+|   |   |-- fonts
+|   |   |   |-- flaming
+|   |   |   |   |-- flaming-webfont.woff
+|   |   |   |   |-- flaming-webfont.woff2
+|   |   |   |-- icon51c1.eot
+|   |   |   |-- icon51c1.svg
+|   |   |   |-- icon51c1.ttf
+|   |   |   |-- icon51c1.woff
+|   |   |   |-- icon51c1.woff2
+|   |   |   |-- molla0ab2.eot
+|   |   |   |-- molla0ab2.svg
+|   |   |   |-- molla0ab2.ttf
+|   |   |   |-- molla0ab2.woff
+|   |   |   |-- molla0ab2.woff2
+|   |   |-- images
+|   |   |   |-- about
+|   |   |   |   |-- about-2
+|   |   |   |   |   |-- img-1.jpg
+|   |   |   |   |   |-- signature.png
+|   |   |   |   |-- img-1.jpg
+|   |   |   |   |-- img-2.jpg
+|   |   |   |-- backgrounds
+|   |   |   |   |-- cta
+|   |   |   |   |   |-- bg-1.jpg
+|   |   |   |   |   |-- bg-2.jpg
+|   |   |   |   |   |-- bg-3.jpg
+|   |   |   |   |   |-- bg-4.jpg
+|   |   |   |   |   |-- bg-5.jpg
+|   |   |   |   |   |-- bg-6.jpg
+|   |   |   |   |   |-- bg-7.jpg
+|   |   |   |   |-- bg-1.jpg
+|   |   |   |   |-- bg-2.jpg
+|   |   |   |   |-- bg-4.jpg
+|   |   |   |   |-- error-bg.jpg
+|   |   |   |   |-- login-bg.jpg
+|   |   |   |   |-- soon-bg.jpg
+|   |   |   |-- banners
+|   |   |   |   |-- 3cols
+|   |   |   |   |   |-- banner-1.jpg
+|   |   |   |   |   |-- banner-2.jpg
+|   |   |   |   |   |-- banner-3.jpg
+|   |   |   |   |   |-- banner-4.jpg
+|   |   |   |   |   |-- banner-5.jpg
+|   |   |   |   |   |-- banner-6.jpg
+|   |   |   |   |-- grid
+|   |   |   |   |   |-- 3cols
+|   |   |   |   |   |   |-- banner-1.jpg
+|   |   |   |   |   |   |-- banner-2.jpg
+|   |   |   |   |   |   |-- banner-3.jpg
+|   |   |   |   |   |-- 4cols
+|   |   |   |   |   |   |-- banner-1.jpg
+|   |   |   |   |   |   |-- banner-2.jpg
+|   |   |   |   |   |   |-- banner-3.jpg
+|   |   |   |   |   |   |-- banner-4.jpg
+|   |   |   |   |-- home
+|   |   |   |   |   |-- intro
+|   |   |   |   |   |   |-- banner-1.jpg
+|   |   |   |   |   |   |-- banner-2.jpg
+|   |   |   |   |   |-- banner-1.jpg
+|   |   |   |   |   |-- banner-2.jpg
+|   |   |   |   |   |-- banner-3.jpg
+|   |   |   |   |   |-- banner-4.jpg
+|   |   |   |   |-- banner-1.jpg
+|   |   |   |   |-- banner-2.jpg
+|   |   |   |   |-- banner-fullwidth.jpg
+|   |   |   |-- blog
+|   |   |   |   |-- 3cols
+|   |   |   |   |   |-- post-1.jpg
+|   |   |   |   |   |-- post-2.jpg
+|   |   |   |   |   |-- post-3.jpg
+|   |   |   |   |-- 4cols
+|   |   |   |   |   |-- post-1.jpg
+|   |   |   |   |   |-- post-2.jpg
+|   |   |   |   |   |-- post-3.jpg
+|   |   |   |   |   |-- post-4.jpg
+|   |   |   |   |-- comments
+|   |   |   |   |   |-- 1.jpg
+|   |   |   |   |   |-- 2.jpg
+|   |   |   |   |   |-- 3.jpg
+|   |   |   |   |-- grid
+|   |   |   |   |   |-- 2cols
+|   |   |   |   |   |   |-- post-1.jpg
+|   |   |   |   |   |   |-- post-2.jpg
+|   |   |   |   |   |   |-- post-3.jpg
+|   |   |   |   |   |   |-- post-4.jpg
+|   |   |   |   |   |   |-- post-5.jpg
+|   |   |   |   |   |   |-- post-6.jpg
+|   |   |   |   |   |-- 3cols
+|   |   |   |   |   |   |-- post-1.jpg
+|   |   |   |   |   |   |-- post-2.jpg
+|   |   |   |   |   |   |-- post-3.jpg
+|   |   |   |   |   |   |-- post-4.jpg
+|   |   |   |   |   |   |-- post-5.jpg
+|   |   |   |   |   |   |-- post-6.jpg
+|   |   |   |   |   |   |-- post-7.jpg
+|   |   |   |   |   |   |-- post-8.jpg
+|   |   |   |   |   |   |-- post-9.jpg
+|   |   |   |   |   |-- 4cols
+|   |   |   |   |   |   |-- post-1.jpg
+|   |   |   |   |   |   |-- post-2.jpg
+|   |   |   |   |   |   |-- post-3.jpg
+|   |   |   |   |   |   |-- post-4.jpg
+|   |   |   |   |   |   |-- post-5.jpg
+|   |   |   |   |   |   |-- post-6.jpg
+|   |   |   |   |   |   |-- post-7.jpg
+|   |   |   |   |   |   |-- post-8.jpg
+|   |   |   |   |-- home
+|   |   |   |   |   |-- post-1.jpg
+|   |   |   |   |   |-- post-2.jpg
+|   |   |   |   |   |-- post-3.jpg
+|   |   |   |   |-- listing
+|   |   |   |   |   |-- post-1.jpg
+|   |   |   |   |   |-- post-2.jpg
+|   |   |   |   |   |-- post-3.jpg
+|   |   |   |   |   |-- post-4.jpg
+|   |   |   |   |   |-- post-5.jpg
+|   |   |   |   |   |-- post-6.jpg
+|   |   |   |   |-- mask
+|   |   |   |   |   |-- grid
+|   |   |   |   |   |   |-- post-1.jpg
+|   |   |   |   |   |   |-- post-2.jpg
+|   |   |   |   |   |   |-- post-3.jpg
+|   |   |   |   |   |   |-- post-4.jpg
+|   |   |   |   |   |   |-- post-5.jpg
+|   |   |   |   |   |   |-- post-6.jpg
+|   |   |   |   |   |   |-- post-7.jpg
+|   |   |   |   |   |   |-- post-8.jpg
+|   |   |   |   |   |   |-- post-9.jpg
+|   |   |   |   |   |-- masonry
+|   |   |   |   |   |   |-- post-1.jpg
+|   |   |   |   |   |   |-- post-2.jpg
+|   |   |   |   |   |   |-- post-3.jpg
+|   |   |   |   |   |   |-- post-4.jpg
+|   |   |   |   |   |   |-- post-5.jpg
+|   |   |   |   |   |   |-- post-6.jpg
+|   |   |   |   |   |   |-- post-7.jpg
+|   |   |   |   |   |   |-- post-8.jpg
+|   |   |   |   |   |   |-- post-9.jpg
+|   |   |   |   |-- masonry
+|   |   |   |   |   |-- 2cols
+|   |   |   |   |   |   |-- post-1.jpg
+|   |   |   |   |   |   |-- post-2.jpg
+|   |   |   |   |   |   |-- post-3.jpg
+|   |   |   |   |   |   |-- post-4.jpg
+|   |   |   |   |   |   |-- post-4-2.jpg
+|   |   |   |   |   |   |-- post-5.jpg
+|   |   |   |   |   |   |-- post-6.jpg
+|   |   |   |   |   |-- 3cols
+|   |   |   |   |   |   |-- post-1.jpg
+|   |   |   |   |   |   |-- post-2.jpg
+|   |   |   |   |   |   |-- post-3.jpg
+|   |   |   |   |   |   |-- post-3-2.jpg
+|   |   |   |   |   |   |-- post-4.jpg
+|   |   |   |   |   |   |-- post-5.jpg
+|   |   |   |   |   |   |-- post-6.jpg
+|   |   |   |   |   |   |-- post-7.jpg
+|   |   |   |   |   |   |-- post-8.jpg
+|   |   |   |   |   |   |-- post-9.jpg
+|   |   |   |   |   |   |-- post-9-2.jpg
+|   |   |   |   |   |-- 4cols
+|   |   |   |   |   |   |-- post-1.jpg
+|   |   |   |   |   |   |-- post-10.jpg
+|   |   |   |   |   |   |-- post-11.jpg
+|   |   |   |   |   |   |-- post-12.jpg
+|   |   |   |   |   |   |-- post-2.jpg
+|   |   |   |   |   |   |-- post-3.jpg
+|   |   |   |   |   |   |-- post-3-2.jpg
+|   |   |   |   |   |   |-- post-4.jpg
+|   |   |   |   |   |   |-- post-5.jpg
+|   |   |   |   |   |   |-- post-6.jpg
+|   |   |   |   |   |   |-- post-7.jpg
+|   |   |   |   |   |   |-- post-8.jpg
+|   |   |   |   |   |   |-- post-8-2.jpg
+|   |   |   |   |   |   |-- post-9.jpg
+|   |   |   |   |   |-- with-sidebar
+|   |   |   |   |   |   |-- post-1.jpg
+|   |   |   |   |   |   |-- post-2.jpg
+|   |   |   |   |   |   |-- post-3.jpg
+|   |   |   |   |   |   |-- post-4.jpg
+|   |   |   |   |   |   |-- post-5.jpg
+|   |   |   |   |   |   |-- post-6.jpg
+|   |   |   |   |   |   |-- post-7.jpg
+|   |   |   |   |   |   |-- post-8.jpg
+|   |   |   |   |   |   |-- post-8-2.jpg
+|   |   |   |   |-- sidebar
+|   |   |   |   |   |-- banner.jpg
+|   |   |   |   |   |-- post-1.jpg
+|   |   |   |   |   |-- post-2.jpg
+|   |   |   |   |   |-- post-3.jpg
+|   |   |   |   |   |-- post-4.jpg
+|   |   |   |   |-- single
+|   |   |   |   |   |-- fullwidth
+|   |   |   |   |   |   |-- 1.jpg
+|   |   |   |   |   |   |-- 2.jpg
+|   |   |   |   |   |   |-- 3.jpg
+|   |   |   |   |   |-- fullwidth-sidebar
+|   |   |   |   |   |   |-- 1.jpg
+|   |   |   |   |   |   |-- 2.jpg
+|   |   |   |   |   |   |-- 3.jpg
+|   |   |   |   |   |   |-- 4.jpg
+|   |   |   |   |   |   |-- 5.jpg
+|   |   |   |   |   |-- 1.jpg
+|   |   |   |   |   |-- 2.jpg
+|   |   |   |   |   |-- 3.jpg
+|   |   |   |   |   |-- author.jpg
+|   |   |   |   |-- post-1.jpg
+|   |   |   |   |-- post-2.jpg
+|   |   |   |   |-- post-3.jpg
+|   |   |   |   |-- post-4.jpg
+|   |   |   |   |-- post-5.jpg
+|   |   |   |-- brands
+|   |   |   |   |-- 1.png
+|   |   |   |   |-- 2.png
+|   |   |   |   |-- 3.png
+|   |   |   |   |-- 4.png
+|   |   |   |   |-- 5.png
+|   |   |   |   |-- 6.png
+|   |   |   |   |-- 7.png
+|   |   |   |   |-- 8.png
+|   |   |   |   |-- 9.png
+|   |   |   |-- category
+|   |   |   |   |-- 3cols
+|   |   |   |   |   |-- banner-1.jpg
+|   |   |   |   |   |-- banner-2.jpg
+|   |   |   |   |   |-- banner-3.jpg
+|   |   |   |   |-- 4cols
+|   |   |   |   |   |-- banner-1.jpg
+|   |   |   |   |   |-- banner-2.jpg
+|   |   |   |   |   |-- banner-3.jpg
+|   |   |   |   |   |-- banner-4.jpg
+|   |   |   |   |-- boxed
+|   |   |   |   |   |-- banner-1.jpg
+|   |   |   |   |   |-- banner-2.jpg
+|   |   |   |   |   |-- banner-3.jpg
+|   |   |   |   |   |-- banner-4.jpg
+|   |   |   |   |   |-- banner-5.jpg
+|   |   |   |   |   |-- banner-6.jpg
+|   |   |   |   |   |-- banner-7.jpg
+|   |   |   |   |   |-- banner-8.jpg
+|   |   |   |   |-- fullwidth
+|   |   |   |   |   |-- banner-1.jpg
+|   |   |   |   |   |-- banner-2.jpg
+|   |   |   |   |   |-- banner-3.jpg
+|   |   |   |   |-- fullwidth-page
+|   |   |   |   |   |-- banner-1.jpg
+|   |   |   |   |   |-- banner-2.jpg
+|   |   |   |   |   |-- banner-3.jpg
+|   |   |   |   |   |-- banner-4.jpg
+|   |   |   |   |   |-- banner-5.jpg
+|   |   |   |   |   |-- banner-6.jpg
+|   |   |   |   |   |-- banner-7.jpg
+|   |   |   |   |   |-- banner-8.jpg
+|   |   |   |   |-- grid
+|   |   |   |   |   |-- banner-1.jpg
+|   |   |   |   |   |-- banner-2.jpg
+|   |   |   |   |   |-- banner-3.jpg
+|   |   |   |   |   |-- banner-4.jpg
+|   |   |   |   |-- grid2
+|   |   |   |   |   |-- banner-1.jpg
+|   |   |   |   |   |-- banner-2.jpg
+|   |   |   |   |   |-- banner-3.jpg
+|   |   |   |   |-- banner-1.jpg
+|   |   |   |   |-- banner-2.jpg
+|   |   |   |-- demos
+|   |   |   |   |-- demo-10
+|   |   |   |   |   |-- banners
+|   |   |   |   |   |   |-- banner-1.jpg
+|   |   |   |   |   |   |-- banner-2.jpg
+|   |   |   |   |   |   |-- banner-3.jpg
+|   |   |   |   |   |   |-- banner-4.jpg
+|   |   |   |   |   |   |-- banner-5.jpg
+|   |   |   |   |   |   |-- banner-6.jpg
+|   |   |   |   |   |   |-- banner-7.jpg
+|   |   |   |   |   |-- blog
+|   |   |   |   |   |   |-- post-1.jpg
+|   |   |   |   |   |   |-- post-2.jpg
+|   |   |   |   |   |   |-- post-3.jpg
+|   |   |   |   |   |   |-- post-4.jpg
+|   |   |   |   |   |-- products
+|   |   |   |   |   |   |-- product-1.jpg
+|   |   |   |   |   |   |-- product-10.jpg
+|   |   |   |   |   |   |-- product-11.jpg
+|   |   |   |   |   |   |-- product-12.jpg
+|   |   |   |   |   |   |-- product-13.jpg
+|   |   |   |   |   |   |-- product-14.jpg
+|   |   |   |   |   |   |-- product-2.jpg
+|   |   |   |   |   |   |-- product-3.jpg
+|   |   |   |   |   |   |-- product-3-2.jpg
+|   |   |   |   |   |   |-- product-4.jpg
+|   |   |   |   |   |   |-- product-5.jpg
+|   |   |   |   |   |   |-- product-6.jpg
+|   |   |   |   |   |   |-- product-7.jpg
+|   |   |   |   |   |   |-- product-8.jpg
+|   |   |   |   |   |   |-- product-9.jpg
+|   |   |   |   |   |-- slider
+|   |   |   |   |   |   |-- slide-1.jpg
+|   |   |   |   |   |   |-- slide-1-480w.jpg
+|   |   |   |   |   |   |-- slide-2.jpg
+|   |   |   |   |   |   |-- slide-2-480w.jpg
+|   |   |   |   |   |   |-- slide-3.jpg
+|   |   |   |   |   |   |-- slide-3-480w.jpg
+|   |   |   |   |   |-- bg-1.jpg
+|   |   |   |   |   |-- bg-2.jpg
+|   |   |   |   |   |-- logo.png
+|   |   |   |   |   |-- logo-footer.png
+|   |   |   |   |-- demo-11
+|   |   |   |   |   |-- products
+|   |   |   |   |   |   |-- product-1.jpg
+|   |   |   |   |   |   |-- product-10.jpg
+|   |   |   |   |   |   |-- product-11.jpg
+|   |   |   |   |   |   |-- product-12.jpg
+|   |   |   |   |   |   |-- product-2.jpg
+|   |   |   |   |   |   |-- product-3.jpg
+|   |   |   |   |   |   |-- product-4.jpg
+|   |   |   |   |   |   |-- product-5.jpg
+|   |   |   |   |   |   |-- product-6.jpg
+|   |   |   |   |   |   |-- product-7.jpg
+|   |   |   |   |   |   |-- product-8.jpg
+|   |   |   |   |   |   |-- product-9.jpg
+|   |   |   |   |   |-- slider
+|   |   |   |   |   |   |-- slide-1.jpg
+|   |   |   |   |   |   |-- slide-2.jpg
+|   |   |   |   |   |-- logo.png
+|   |   |   |   |-- demo-12
+|   |   |   |   |   |-- banners
+|   |   |   |   |   |   |-- banner-1.jpg
+|   |   |   |   |   |   |-- banner-2.jpg
+|   |   |   |   |   |   |-- banner-3.jpg
+|   |   |   |   |   |   |-- banner-4.jpg
+|   |   |   |   |   |   |-- banner-5.jpg
+|   |   |   |   |   |   |-- banner-6.jpg
+|   |   |   |   |   |   |-- banner-7.jpg
+|   |   |   |   |   |-- products
+|   |   |   |   |   |   |-- product-1.jpg
+|   |   |   |   |   |   |-- product-1-2.jpg
+|   |   |   |   |   |   |-- product-2.jpg
+|   |   |   |   |   |   |-- product-2-2.jpg
+|   |   |   |   |   |   |-- product-3.jpg
+|   |   |   |   |   |   |-- product-3-2.jpg
+|   |   |   |   |   |   |-- product-4.jpg
+|   |   |   |   |   |   |-- product-4-2.jpg
+|   |   |   |   |   |   |-- product-5.jpg
+|   |   |   |   |   |   |-- product-5-2.jpg
+|   |   |   |   |   |   |-- product-6.jpg
+|   |   |   |   |   |   |-- product-6-2.jpg
+|   |   |   |   |   |-- slider
+|   |   |   |   |   |   |-- slide-1.jpg
+|   |   |   |   |   |-- logo.png
+|   |   |   |   |-- demo-13
+|   |   |   |   |   |-- banners
+|   |   |   |   |   |   |-- banner-1.jpg
+|   |   |   |   |   |   |-- banner-2.jpg
+|   |   |   |   |   |   |-- banner-3.jpg
+|   |   |   |   |   |   |-- banner-4.jpg
+|   |   |   |   |   |   |-- banner-5.png
+|   |   |   |   |   |   |-- banner-6.jpg
+|   |   |   |   |   |   |-- banner-7.jpg
+|   |   |   |   |   |   |-- banner-8.jpg
+|   |   |   |   |   |-- blog
+|   |   |   |   |   |   |-- post-1.jpg
+|   |   |   |   |   |   |-- post-2.jpg
+|   |   |   |   |   |   |-- post-3.jpg
+|   |   |   |   |   |   |-- post-4.jpg
+|   |   |   |   |   |-- cats
+|   |   |   |   |   |   |-- cat-page
+|   |   |   |   |   |   |   |-- 1.jpg
+|   |   |   |   |   |   |   |-- 2.jpg
+|   |   |   |   |   |   |   |-- 3.jpg
+|   |   |   |   |   |   |   |-- 4.jpg
+|   |   |   |   |   |   |   |-- 5.jpg
+|   |   |   |   |   |   |   |-- 6.jpg
+|   |   |   |   |   |   |   |-- 7.jpg
+|   |   |   |   |   |   |-- 1.jpg
+|   |   |   |   |   |   |-- 2.jpg
+|   |   |   |   |   |   |-- 3.jpg
+|   |   |   |   |   |   |-- 4.jpg
+|   |   |   |   |   |   |-- 5.jpg
+|   |   |   |   |   |   |-- 6.jpg
+|   |   |   |   |   |-- menu
+|   |   |   |   |   |   |-- 1.jpg
+|   |   |   |   |   |   |-- 2.jpg
+|   |   |   |   |   |   |-- 3.jpg
+|   |   |   |   |   |   |-- banner-1.jpg
+|   |   |   |   |   |   |-- banner-2.jpg
+|   |   |   |   |   |   |-- banner-3.jpg
+|   |   |   |   |   |-- products
+|   |   |   |   |   |   |-- product-1.jpg
+|   |   |   |   |   |   |-- product-10.jpg
+|   |   |   |   |   |   |-- product-11.jpg
+|   |   |   |   |   |   |-- product-12.jpg
+|   |   |   |   |   |   |-- product-13.jpg
+|   |   |   |   |   |   |-- product-14.jpg
+|   |   |   |   |   |   |-- product-15.jpg
+|   |   |   |   |   |   |-- product-16.jpg
+|   |   |   |   |   |   |-- product-17.jpg
+|   |   |   |   |   |   |-- product-18.jpg
+|   |   |   |   |   |   |-- product-19.jpg
+|   |   |   |   |   |   |-- product-2.jpg
+|   |   |   |   |   |   |-- product-20.jpg
+|   |   |   |   |   |   |-- product-3.jpg
+|   |   |   |   |   |   |-- product-4.jpg
+|   |   |   |   |   |   |-- product-5.jpg
+|   |   |   |   |   |   |-- product-6.jpg
+|   |   |   |   |   |   |-- product-7.jpg
+|   |   |   |   |   |   |-- product-8.jpg
+|   |   |   |   |   |   |-- product-9.jpg
+|   |   |   |   |   |-- slider
+|   |   |   |   |   |   |-- slide-1.png
+|   |   |   |   |   |   |-- slide-2.jpg
+|   |   |   |   |   |   |-- slide-3.jpg
+|   |   |   |   |   |-- logo.png
+|   |   |   |   |   |-- logo-footer.png
+|   |   |   |   |-- demo-14
+|   |   |   |   |   |-- banners
+|   |   |   |   |   |   |-- banner-1.png
+|   |   |   |   |   |   |-- banner-10.jpg
+|   |   |   |   |   |   |-- banner-11.jpg
+|   |   |   |   |   |   |-- banner-12.jpg
+|   |   |   |   |   |   |-- banner-2.jpg
+|   |   |   |   |   |   |-- banner-3.png
+|   |   |   |   |   |   |-- banner-4.jpg
+|   |   |   |   |   |   |-- banner-5.jpg
+|   |   |   |   |   |   |-- banner-6.jpg
+|   |   |   |   |   |   |-- banner-7.jpg
+|   |   |   |   |   |   |-- banner-8.jpg
+|   |   |   |   |   |   |-- banner-9.jpg
+|   |   |   |   |   |   |-- banner-bg-1.jpg
+|   |   |   |   |   |   |-- banner-bg-2.jpg
+|   |   |   |   |   |   |-- banner-bg-3.jpg
+|   |   |   |   |   |   |-- banner-bg-4.jpg
+|   |   |   |   |   |-- blog
+|   |   |   |   |   |   |-- post-1.jpg
+|   |   |   |   |   |   |-- post-2.jpg
+|   |   |   |   |   |   |-- post-3.jpg
+|   |   |   |   |   |-- products
+|   |   |   |   |   |   |-- deals
+|   |   |   |   |   |   |   |-- product-1.jpg
+|   |   |   |   |   |   |   |-- product-2.jpg
+|   |   |   |   |   |   |-- small
+|   |   |   |   |   |   |   |-- product-1.jpg
+|   |   |   |   |   |   |   |-- product-2.jpg
+|   |   |   |   |   |   |   |-- product-3.jpg
+|   |   |   |   |   |   |   |-- product-4.jpg
+|   |   |   |   |   |   |   |-- product-5.jpg
+|   |   |   |   |   |   |-- product-1.jpg
+|   |   |   |   |   |   |-- product-10.jpg
+|   |   |   |   |   |   |-- product-11.jpg
+|   |   |   |   |   |   |-- product-12.jpg
+|   |   |   |   |   |   |-- product-13.jpg
+|   |   |   |   |   |   |-- product-14.jpg
+|   |   |   |   |   |   |-- product-15.jpg
+|   |   |   |   |   |   |-- product-16.jpg
+|   |   |   |   |   |   |-- product-17.jpg
+|   |   |   |   |   |   |-- product-18.jpg
+|   |   |   |   |   |   |-- product-19.jpg
+|   |   |   |   |   |   |-- product-2.jpg
+|   |   |   |   |   |   |-- product-20.jpg
+|   |   |   |   |   |   |-- product-21.jpg
+|   |   |   |   |   |   |-- product-3.jpg
+|   |   |   |   |   |   |-- product-4.jpg
+|   |   |   |   |   |   |-- product-5.jpg
+|   |   |   |   |   |   |-- product-6.jpg
+|   |   |   |   |   |   |-- product-7.jpg
+|   |   |   |   |   |   |-- product-8.jpg
+|   |   |   |   |   |   |-- product-9.jpg
+|   |   |   |   |   |-- slider
+|   |   |   |   |   |   |-- slide-1.jpg
+|   |   |   |   |   |   |-- slide-1-480w.jpg
+|   |   |   |   |   |   |-- slide-2.jpg
+|   |   |   |   |   |   |-- slide-2-480w.jpg
+|   |   |   |   |   |   |-- slide-3.jpg
+|   |   |   |   |   |   |-- slide-3-480w.jpg
+|   |   |   |   |   |-- bg-1.jpg
+|   |   |   |   |   |-- logo.png
+|   |   |   |   |   |-- logo-footer.png
+|   |   |   |   |-- demo-15
+|   |   |   |   |   |-- banners
+|   |   |   |   |   |   |-- banner-1.jpg
+|   |   |   |   |   |   |-- banner-2.jpg
+|   |   |   |   |   |   |-- banner-3.jpg
+|   |   |   |   |   |   |-- banner-4.jpg
+|   |   |   |   |   |-- blog
+|   |   |   |   |   |   |-- post-1.jpg
+|   |   |   |   |   |   |-- post-2.jpg
+|   |   |   |   |   |   |-- post-3.jpg
+|   |   |   |   |   |   |-- post-4.jpg
+|   |   |   |   |   |-- products
+|   |   |   |   |   |   |-- product-1.jpg
+|   |   |   |   |   |   |-- product-10.jpg
+|   |   |   |   |   |   |-- product-10-2.jpg
+|   |   |   |   |   |   |-- product-2.jpg
+|   |   |   |   |   |   |-- product-3.jpg
+|   |   |   |   |   |   |-- product-3-2.jpg
+|   |   |   |   |   |   |-- product-4.jpg
+|   |   |   |   |   |   |-- product-4-2.jpg
+|   |   |   |   |   |   |-- product-5.jpg
+|   |   |   |   |   |   |-- product-5-2.jpg
+|   |   |   |   |   |   |-- product-6.jpg
+|   |   |   |   |   |   |-- product-6-2.jpg
+|   |   |   |   |   |   |-- product-7.jpg
+|   |   |   |   |   |   |-- product-7-2.jpg
+|   |   |   |   |   |   |-- product-8.jpg
+|   |   |   |   |   |   |-- product-8-2.jpg
+|   |   |   |   |   |   |-- product-9.jpg
+|   |   |   |   |   |   |-- product-9-2.jpg
+|   |   |   |   |   |-- slider
+|   |   |   |   |   |   |-- slide-1.jpg
+|   |   |   |   |   |-- bg-1.jpg
+|   |   |   |   |   |-- logo.png
+|   |   |   |   |   |-- logo-footer.png
+|   |   |   |   |-- demo-16
+|   |   |   |   |   |-- banners
+|   |   |   |   |   |   |-- banner-1.jpg
+|   |   |   |   |   |   |-- banner-2.jpg
+|   |   |   |   |   |-- blog
+|   |   |   |   |   |   |-- post-1.jpg
+|   |   |   |   |   |   |-- post-2.jpg
+|   |   |   |   |   |   |-- post-3.jpg
+|   |   |   |   |   |-- instagram
+|   |   |   |   |   |   |-- 1.jpg
+|   |   |   |   |   |   |-- 2.jpg
+|   |   |   |   |   |   |-- 3.jpg
+|   |   |   |   |   |   |-- 4.jpg
+|   |   |   |   |   |   |-- 5.jpg
+|   |   |   |   |   |-- products
+|   |   |   |   |   |   |-- product-1.jpg
+|   |   |   |   |   |   |-- product-10.jpg
+|   |   |   |   |   |   |-- product-10-2.jpg
+|   |   |   |   |   |   |-- product-1-2.jpg
+|   |   |   |   |   |   |-- product-2.jpg
+|   |   |   |   |   |   |-- product-2-2.jpg
+|   |   |   |   |   |   |-- product-3.jpg
+|   |   |   |   |   |   |-- product-3-2.jpg
+|   |   |   |   |   |   |-- product-4.jpg
+|   |   |   |   |   |   |-- product-4-2.jpg
+|   |   |   |   |   |   |-- product-5.jpg
+|   |   |   |   |   |   |-- product-5-2.jpg
+|   |   |   |   |   |   |-- product-6.jpg
+|   |   |   |   |   |   |-- product-6-2.jpg
+|   |   |   |   |   |   |-- product-7.jpg
+|   |   |   |   |   |   |-- product-7-2.jpg
+|   |   |   |   |   |   |-- product-8.jpg
+|   |   |   |   |   |   |-- product-8-2.jpg
+|   |   |   |   |   |   |-- product-9.jpg
+|   |   |   |   |   |   |-- product-9-2.jpg
+|   |   |   |   |   |-- slider
+|   |   |   |   |   |   |-- slide-1.jpg
+|   |   |   |   |   |-- bg-1.jpg
+|   |   |   |   |-- demo-17
+|   |   |   |   |   |-- banners
+|   |   |   |   |   |   |-- banner-1.jpg
+|   |   |   |   |   |   |-- banner-2.jpg
+|   |   |   |   |   |   |-- banner-3.jpg
+|   |   |   |   |   |   |-- banner-4.jpg
+|   |   |   |   |   |-- blog
+|   |   |   |   |   |   |-- post-1.jpg
+|   |   |   |   |   |   |-- post-2.jpg
+|   |   |   |   |   |   |-- post-3.jpg
+|   |   |   |   |   |-- instagram
+|   |   |   |   |   |   |-- 1.jpg
+|   |   |   |   |   |   |-- 2.jpg
+|   |   |   |   |   |   |-- 3.jpg
+|   |   |   |   |   |   |-- 4.jpg
+|   |   |   |   |   |   |-- 5.jpg
+|   |   |   |   |   |-- products
+|   |   |   |   |   |   |-- product-1.jpg
+|   |   |   |   |   |   |-- product-1-2.jpg
+|   |   |   |   |   |   |-- product-2.jpg
+|   |   |   |   |   |   |-- product-2-2.jpg
+|   |   |   |   |   |   |-- product-3.jpg
+|   |   |   |   |   |   |-- product-3-2.jpg
+|   |   |   |   |   |   |-- product-4.jpg
+|   |   |   |   |   |   |-- product-4-2.jpg
+|   |   |   |   |   |   |-- product-5.jpg
+|   |   |   |   |   |   |-- product-5-2.jpg
+|   |   |   |   |   |   |-- product-6.jpg
+|   |   |   |   |   |   |-- product-6-2.jpg
+|   |   |   |   |   |   |-- product-7.jpg
+|   |   |   |   |   |   |-- product-7-2.jpg
+|   |   |   |   |   |   |-- product-8.jpg
+|   |   |   |   |   |   |-- product-8-2.jpg
+|   |   |   |   |   |   |-- product-9.jpg
+|   |   |   |   |   |   |-- product-9-2.jpg
+|   |   |   |   |   |-- bg-1.jpg
+|   |   |   |   |-- demo-18
+|   |   |   |   |   |-- banners
+|   |   |   |   |   |   |-- banner-1.jpg
+|   |   |   |   |   |   |-- banner-2.jpg
+|   |   |   |   |   |   |-- banner-3.jpg
+|   |   |   |   |   |   |-- banner-4.jpg
+|   |   |   |   |   |   |-- banner-5.jpg
+|   |   |   |   |   |-- blog
+|   |   |   |   |   |   |-- post-1.jpg
+|   |   |   |   |   |   |-- post-2.jpg
+|   |   |   |   |   |-- instagram
+|   |   |   |   |   |   |-- 1.jpg
+|   |   |   |   |   |   |-- 2.jpg
+|   |   |   |   |   |   |-- 3.jpg
+|   |   |   |   |   |   |-- 4.jpg
+|   |   |   |   |   |   |-- 5.jpg
+|   |   |   |   |   |-- products
+|   |   |   |   |   |   |-- small
+|   |   |   |   |   |   |   |-- product-1.jpg
+|   |   |   |   |   |   |   |-- product-2.jpg
+|   |   |   |   |   |   |   |-- product-3.jpg
+|   |   |   |   |   |   |   |-- product-4.jpg
+|   |   |   |   |   |   |-- product-1.jpg
+|   |   |   |   |   |   |-- product-1-2.jpg
+|   |   |   |   |   |   |-- product-2.jpg
+|   |   |   |   |   |   |-- product-2-2.jpg
+|   |   |   |   |   |   |-- product-3.jpg
+|   |   |   |   |   |   |-- product-3-2.jpg
+|   |   |   |   |   |   |-- product-4.jpg
+|   |   |   |   |   |   |-- product-4-2.jpg
+|   |   |   |   |   |   |-- product-5.jpg
+|   |   |   |   |   |   |-- product-5-2.jpg
+|   |   |   |   |   |   |-- product-6.jpg
+|   |   |   |   |   |   |-- product-6-2.jpg
+|   |   |   |   |   |   |-- product-7.jpg
+|   |   |   |   |   |   |-- product-7-2.jpg
+|   |   |   |   |   |   |-- product-8.jpg
+|   |   |   |   |   |   |-- product-8-2.jpg
+|   |   |   |   |   |   |-- product-9.jpg
+|   |   |   |   |   |   |-- product-9-2.jpg
+|   |   |   |   |   |-- slider
+|   |   |   |   |   |   |-- slide-1.jpg
+|   |   |   |   |   |   |-- slide-2.jpg
+|   |   |   |   |   |-- bg-newsletter.jpg
+|   |   |   |   |   |-- logo.png
+|   |   |   |   |   |-- logo-footer.png
+|   |   |   |   |-- demo-19
+|   |   |   |   |   |-- banners
+|   |   |   |   |   |   |-- banner-1.jpg
+|   |   |   |   |   |   |-- banner-10.jpg
+|   |   |   |   |   |   |-- banner-10-title.png
+|   |   |   |   |   |   |-- banner-1-title.png
+|   |   |   |   |   |   |-- banner-2.jpg
+|   |   |   |   |   |   |-- banner-2-title.png
+|   |   |   |   |   |   |-- banner-3.jpg
+|   |   |   |   |   |   |-- banner-3-title.png
+|   |   |   |   |   |   |-- banner-4.jpg
+|   |   |   |   |   |   |-- banner-4-title.png
+|   |   |   |   |   |   |-- banner-5.jpg
+|   |   |   |   |   |   |-- banner-5-title.png
+|   |   |   |   |   |   |-- banner-6.jpg
+|   |   |   |   |   |   |-- banner-6-title.png
+|   |   |   |   |   |   |-- banner-7.jpg
+|   |   |   |   |   |   |-- banner-8.jpg
+|   |   |   |   |   |   |-- banner-8-title.png
+|   |   |   |   |   |   |-- banner-9.jpg
+|   |   |   |   |   |   |-- banner-9-title.png
+|   |   |   |   |   |-- blog
+|   |   |   |   |   |   |-- post-1.jpg
+|   |   |   |   |   |   |-- post-2.jpg
+|   |   |   |   |   |   |-- post-3.jpg
+|   |   |   |   |   |   |-- post-4.jpg
+|   |   |   |   |   |-- menu
+|   |   |   |   |   |   |-- banner-1.jpg
+|   |   |   |   |   |   |-- banner-2.jpg
+|   |   |   |   |   |-- products
+|   |   |   |   |   |   |-- product-1.jpg
+|   |   |   |   |   |   |-- product-10.jpg
+|   |   |   |   |   |   |-- product-11.jpg
+|   |   |   |   |   |   |-- product-12.jpg
+|   |   |   |   |   |   |-- product-13.jpg
+|   |   |   |   |   |   |-- product-14.jpg
+|   |   |   |   |   |   |-- product-15.jpg
+|   |   |   |   |   |   |-- product-16.jpg
+|   |   |   |   |   |   |-- product-2.jpg
+|   |   |   |   |   |   |-- product-3.jpg
+|   |   |   |   |   |   |-- product-4.jpg
+|   |   |   |   |   |   |-- product-5.jpg
+|   |   |   |   |   |   |-- product-6.jpg
+|   |   |   |   |   |   |-- product-7.jpg
+|   |   |   |   |   |   |-- product-8.jpg
+|   |   |   |   |   |   |-- product-9.jpg
+|   |   |   |   |   |-- bg-1.jpg
+|   |   |   |   |   |-- bg-2.jpg
+|   |   |   |   |   |-- logo-footer.png
+|   |   |   |   |-- demo-2
+|   |   |   |   |   |-- banners
+|   |   |   |   |   |   |-- banner-1.jpg
+|   |   |   |   |   |   |-- banner-2.jpg
+|   |   |   |   |   |   |-- banner-3.jpg
+|   |   |   |   |   |   |-- banner-4.jpg
+|   |   |   |   |   |   |-- banner-5.jpg
+|   |   |   |   |   |-- blog
+|   |   |   |   |   |   |-- post-1.jpg
+|   |   |   |   |   |   |-- post-2.jpg
+|   |   |   |   |   |   |-- post-3.jpg
+|   |   |   |   |   |-- deal
+|   |   |   |   |   |   |-- product-1.jpg
+|   |   |   |   |   |-- products
+|   |   |   |   |   |   |-- product-10-1.jpg
+|   |   |   |   |   |   |-- product-10-2.jpg
+|   |   |   |   |   |   |-- product-1-1.jpg
+|   |   |   |   |   |   |-- product-11-1.jpg
+|   |   |   |   |   |   |-- product-11-2.jpg
+|   |   |   |   |   |   |-- product-1-2.jpg
+|   |   |   |   |   |   |-- product-12-1.jpg
+|   |   |   |   |   |   |-- product-12-2.jpg
+|   |   |   |   |   |   |-- product-13-1.jpg
+|   |   |   |   |   |   |-- product-13-2.jpg
+|   |   |   |   |   |   |-- product-14-1.jpg
+|   |   |   |   |   |   |-- product-14-2.jpg
+|   |   |   |   |   |   |-- product-15-1.jpg
+|   |   |   |   |   |   |-- product-15-2.jpg
+|   |   |   |   |   |   |-- product-16-1.jpg
+|   |   |   |   |   |   |-- product-16-2.jpg
+|   |   |   |   |   |   |-- product-2-1.jpg
+|   |   |   |   |   |   |-- product-2-2.jpg
+|   |   |   |   |   |   |-- product-3-1.jpg
+|   |   |   |   |   |   |-- product-3-2.jpg
+|   |   |   |   |   |   |-- product-4-1.jpg
+|   |   |   |   |   |   |-- product-4-2.jpg
+|   |   |   |   |   |   |-- product-5-1.jpg
+|   |   |   |   |   |   |-- product-5-2.jpg
+|   |   |   |   |   |   |-- product-6-1.jpg
+|   |   |   |   |   |   |-- product-6-2.jpg
+|   |   |   |   |   |   |-- product-7-1.jpg
+|   |   |   |   |   |   |-- product-7-2.jpg
+|   |   |   |   |   |   |-- product-8-1.jpg
+|   |   |   |   |   |   |-- product-8-2.jpg
+|   |   |   |   |   |   |-- product-9-1.jpg
+|   |   |   |   |   |   |-- product-9-2.jpg
+|   |   |   |   |   |-- slider
+|   |   |   |   |   |   |-- slide-1.jpg
+|   |   |   |   |   |   |-- slide-2.jpg
+|   |   |   |   |   |   |-- slide-3.jpg
+|   |   |   |   |   |-- logo.png
+|   |   |   |   |-- demo-20
+|   |   |   |   |   |-- banners
+|   |   |   |   |   |   |-- banner-1.jpg
+|   |   |   |   |   |   |-- banner-2.jpg
+|   |   |   |   |   |   |-- banner-3.jpg
+|   |   |   |   |   |   |-- banner-4.jpg
+|   |   |   |   |   |   |-- banner-6.jpg
+|   |   |   |   |   |   |-- banner-7.jpg
+|   |   |   |   |   |   |-- banner-8.jpg
+|   |   |   |   |   |-- blog
+|   |   |   |   |   |   |-- post-1.jpg
+|   |   |   |   |   |   |-- post-2.jpg
+|   |   |   |   |   |   |-- post-3.jpg
+|   |   |   |   |   |   |-- post-4.jpg
+|   |   |   |   |   |-- products
+|   |   |   |   |   |   |-- product-1.jpg
+|   |   |   |   |   |   |-- product-10.jpg
+|   |   |   |   |   |   |-- product-11.jpg
+|   |   |   |   |   |   |-- product-12.jpg
+|   |   |   |   |   |   |-- product-14.jpg
+|   |   |   |   |   |   |-- product-2.jpg
+|   |   |   |   |   |   |-- product-3.jpg
+|   |   |   |   |   |   |-- product-4.jpg
+|   |   |   |   |   |   |-- product-5.jpg
+|   |   |   |   |   |   |-- product-6.jpg
+|   |   |   |   |   |   |-- product-7.jpg
+|   |   |   |   |   |   |-- product-8.jpg
+|   |   |   |   |   |   |-- product-9.jpg
+|   |   |   |   |   |   |-- product-big-1.jpg
+|   |   |   |   |   |   |-- product-big-1-bg.jpg
+|   |   |   |   |   |   |-- product-big-2-bg.jpg
+|   |   |   |   |   |-- logo.png
+|   |   |   |   |   |-- logo-footer.png
+|   |   |   |   |-- demo-21
+|   |   |   |   |   |-- banner
+|   |   |   |   |   |   |-- accessories.jpg
+|   |   |   |   |   |   |-- banner-1.jpg
+|   |   |   |   |   |   |-- banner-2.jpg
+|   |   |   |   |   |   |-- banner-3.jpg
+|   |   |   |   |   |   |-- footware.jpg
+|   |   |   |   |   |   |-- mens.jpg
+|   |   |   |   |   |   |-- womens.jpg
+|   |   |   |   |   |-- bestSellers
+|   |   |   |   |   |   |-- product-1-1.jpg
+|   |   |   |   |   |   |-- product-1-2.jpg
+|   |   |   |   |   |   |-- product-2-1.jpg
+|   |   |   |   |   |   |-- product-2-2.jpg
+|   |   |   |   |   |   |-- product-3-1.jpg
+|   |   |   |   |   |   |-- product-3-2.jpg
+|   |   |   |   |   |   |-- product-4-1.jpg
+|   |   |   |   |   |   |-- product-4-2.jpg
+|   |   |   |   |   |-- chooseStyle
+|   |   |   |   |   |   |-- background.png
+|   |   |   |   |   |   |-- inspirationback.jpg
+|   |   |   |   |   |   |-- product-1.jpg
+|   |   |   |   |   |   |-- product-2.jpg
+|   |   |   |   |   |   |-- product-3.jpg
+|   |   |   |   |   |-- instagramStore
+|   |   |   |   |   |   |-- banner-1.jpg
+|   |   |   |   |   |   |-- banner-2.jpg
+|   |   |   |   |   |   |-- banner-3.jpg
+|   |   |   |   |   |   |-- banner-4.jpg
+|   |   |   |   |   |   |-- banner-5.jpg
+|   |   |   |   |   |   |-- banner-6.jpg
+|   |   |   |   |   |   |-- banner-7.jpg
+|   |   |   |   |   |-- newArrivals
+|   |   |   |   |   |   |-- product-1.jpg
+|   |   |   |   |   |   |-- product-10.jpg
+|   |   |   |   |   |   |-- product-2.jpg
+|   |   |   |   |   |   |-- product-3.jpg
+|   |   |   |   |   |   |-- product-4.jpg
+|   |   |   |   |   |   |-- product-5.jpg
+|   |   |   |   |   |   |-- product-6.jpg
+|   |   |   |   |   |   |-- product-7.jpg
+|   |   |   |   |   |   |-- product-8.jpg
+|   |   |   |   |   |   |-- product-9.jpg
+|   |   |   |   |   |-- newsLetter
+|   |   |   |   |   |   |-- banner.jpg
+|   |   |   |   |   |-- slider
+|   |   |   |   |   |   |-- slide-1.png
+|   |   |   |   |   |   |-- slide-2.jpg
+|   |   |   |   |   |-- logo.png
+|   |   |   |   |   |-- logo-footer.png
+|   |   |   |   |   |-- notification-back.jpg
+|   |   |   |   |-- demo-22
+|   |   |   |   |   |-- banner
+|   |   |   |   |   |   |-- banner-1.jpg
+|   |   |   |   |   |   |-- banner-2.jpg
+|   |   |   |   |   |-- bannerad
+|   |   |   |   |   |   |-- background.jpg
+|   |   |   |   |   |-- featured
+|   |   |   |   |   |   |-- background.jpg
+|   |   |   |   |   |   |-- product-1.jpg
+|   |   |   |   |   |   |-- product-2.jpg
+|   |   |   |   |   |   |-- product-3.jpg
+|   |   |   |   |   |   |-- product-4.jpg
+|   |   |   |   |   |   |-- product-5.jpg
+|   |   |   |   |   |   |-- product-6.jpg
+|   |   |   |   |   |   |-- product-7.jpg
+|   |   |   |   |   |-- newsLetter
+|   |   |   |   |   |   |-- background.jpg
+|   |   |   |   |   |-- post
+|   |   |   |   |   |   |-- post-1.jpg
+|   |   |   |   |   |   |-- post-2.jpg
+|   |   |   |   |   |   |-- post-3.jpg
+|   |   |   |   |   |-- products
+|   |   |   |   |   |   |-- product-1.jpg
+|   |   |   |   |   |   |-- product-10.jpg
+|   |   |   |   |   |   |-- product-2.jpg
+|   |   |   |   |   |   |-- product-3.jpg
+|   |   |   |   |   |   |-- product-4.jpg
+|   |   |   |   |   |   |-- product-5.jpg
+|   |   |   |   |   |   |-- product-6.jpg
+|   |   |   |   |   |   |-- product-7.jpg
+|   |   |   |   |   |   |-- product-8.jpg
+|   |   |   |   |   |   |-- product-9.jpg
+|   |   |   |   |   |-- slider
+|   |   |   |   |   |   |-- banner-1.jpg
+|   |   |   |   |   |   |-- banner-2.jpg
+|   |   |   |   |   |   |-- banner-3.jpg
+|   |   |   |   |   |   |-- slide-1.jpg
+|   |   |   |   |   |   |-- slide-2.jpg
+|   |   |   |   |   |-- logo.png
+|   |   |   |   |   |-- logo-footer.png
+|   |   |   |   |-- demo-23
+|   |   |   |   |   |-- banners
+|   |   |   |   |   |   |-- banner-1.jpg
+|   |   |   |   |   |   |-- banner-2.jpg
+|   |   |   |   |   |   |-- banner-3.jpg
+|   |   |   |   |   |-- instagram
+|   |   |   |   |   |   |-- img-1.jpg
+|   |   |   |   |   |   |-- img-2.jpg
+|   |   |   |   |   |   |-- img-3.jpg
+|   |   |   |   |   |   |-- img-4.jpg
+|   |   |   |   |   |   |-- img-5.jpg
+|   |   |   |   |   |-- new-men
+|   |   |   |   |   |   |-- banner.jpg
+|   |   |   |   |   |   |-- product-1-1.jpg
+|   |   |   |   |   |   |-- product-1-2.jpg
+|   |   |   |   |   |   |-- product-2-1.jpg
+|   |   |   |   |   |   |-- product-2-2.jpg
+|   |   |   |   |   |   |-- product-3-1.jpg
+|   |   |   |   |   |   |-- product-3-2.jpg
+|   |   |   |   |   |   |-- product-4-1.jpg
+|   |   |   |   |   |   |-- product-4-2.jpg
+|   |   |   |   |   |   |-- product-color-3-1.jpg
+|   |   |   |   |   |   |-- product-color-3-2.jpg
+|   |   |   |   |   |-- new-women
+|   |   |   |   |   |   |-- banner.jpg
+|   |   |   |   |   |   |-- product-1-1.jpg
+|   |   |   |   |   |   |-- product-1-2.jpg
+|   |   |   |   |   |   |-- product-2-1.jpg
+|   |   |   |   |   |   |-- product-2-2.jpg
+|   |   |   |   |   |   |-- product-3-1.jpg
+|   |   |   |   |   |   |-- product-3-2.jpg
+|   |   |   |   |   |   |-- product-4-1.jpg
+|   |   |   |   |   |   |-- product-4-2.jpg
+|   |   |   |   |   |-- slider
+|   |   |   |   |   |   |-- slide.jpg
+|   |   |   |   |   |-- tranding
+|   |   |   |   |   |   |-- product-1-1.jpg
+|   |   |   |   |   |   |-- product-1-2.jpg
+|   |   |   |   |   |   |-- product-2-1.jpg
+|   |   |   |   |   |   |-- product-2-2.jpg
+|   |   |   |   |   |   |-- product-3-1.jpg
+|   |   |   |   |   |   |-- product-3-2.jpg
+|   |   |   |   |   |   |-- product-4-1.jpg
+|   |   |   |   |   |   |-- product-4-2.jpg
+|   |   |   |   |   |   |-- product-5-1.jpg
+|   |   |   |   |   |   |-- product-5-2.jpg
+|   |   |   |   |   |   |-- product-color-3-1.jpg
+|   |   |   |   |   |   |-- product-color-3-2.jpg
+|   |   |   |   |   |-- logo.png
+|   |   |   |   |-- demo-24
+|   |   |   |   |   |-- banners
+|   |   |   |   |   |   |-- banner-1.jpg
+|   |   |   |   |   |   |-- banner-2.jpg
+|   |   |   |   |   |   |-- banner-3.jpg
+|   |   |   |   |   |   |-- banner-4.jpg
+|   |   |   |   |   |   |-- banner-5.jpg
+|   |   |   |   |   |   |-- banner-6.jpg
+|   |   |   |   |   |   |-- banner-7.jpg
+|   |   |   |   |   |   |-- banner-8.jpg
+|   |   |   |   |   |   |-- percent.png
+|   |   |   |   |   |-- best-sellers
+|   |   |   |   |   |   |-- product-1-1.jpg
+|   |   |   |   |   |   |-- product-1-2.jpg
+|   |   |   |   |   |   |-- product-2-1.jpg
+|   |   |   |   |   |   |-- product-2-2.jpg
+|   |   |   |   |   |   |-- product-3-1.jpg
+|   |   |   |   |   |   |-- product-3-2.jpg
+|   |   |   |   |   |   |-- product-4-1.jpg
+|   |   |   |   |   |   |-- product-4-2.jpg
+|   |   |   |   |   |   |-- product-5-1.jpg
+|   |   |   |   |   |   |-- product-5-2.jpg
+|   |   |   |   |   |   |-- product-6-1.jpg
+|   |   |   |   |   |   |-- product-6-2.jpg
+|   |   |   |   |   |-- blog
+|   |   |   |   |   |   |-- blog-1.jpg
+|   |   |   |   |   |   |-- blog-2.jpg
+|   |   |   |   |   |   |-- blog-3.jpg
+|   |   |   |   |   |-- brands
+|   |   |   |   |   |   |-- 1.png
+|   |   |   |   |   |   |-- 2.png
+|   |   |   |   |   |   |-- 3.png
+|   |   |   |   |   |   |-- 4.png
+|   |   |   |   |   |   |-- 5.png
+|   |   |   |   |   |   |-- 6.png
+|   |   |   |   |   |-- featured-products
+|   |   |   |   |   |   |-- product-1-1.jpg
+|   |   |   |   |   |   |-- product-1-2.jpg
+|   |   |   |   |   |   |-- product-2-1.jpg
+|   |   |   |   |   |   |-- product-2-2.jpg
+|   |   |   |   |   |   |-- product-3-1.jpg
+|   |   |   |   |   |   |-- product-3-2.jpg
+|   |   |   |   |   |   |-- product-4-1.jpg
+|   |   |   |   |   |   |-- product-4-2.jpg
+|   |   |   |   |   |   |-- product-5.jpg
+|   |   |   |   |   |-- instagram
+|   |   |   |   |   |   |-- back-1.jpg
+|   |   |   |   |   |   |-- back-2.jpg
+|   |   |   |   |   |   |-- back-3.jpg
+|   |   |   |   |   |   |-- back-4.jpg
+|   |   |   |   |   |   |-- back-5.jpg
+|   |   |   |   |   |-- slider
+|   |   |   |   |   |   |-- back-1.jpg
+|   |   |   |   |   |   |-- back-2.png
+|   |   |   |   |   |-- video-banner
+|   |   |   |   |   |   |-- banner.jpg
+|   |   |   |   |   |-- logo.png
+|   |   |   |   |-- demo-3
+|   |   |   |   |   |-- banners
+|   |   |   |   |   |   |-- banner-1.jpg
+|   |   |   |   |   |   |-- banner-2.jpg
+|   |   |   |   |   |   |-- banner-3.jpg
+|   |   |   |   |   |   |-- banner-4.jpg
+|   |   |   |   |   |-- deal
+|   |   |   |   |   |   |-- bg-1.jpg
+|   |   |   |   |   |-- products
+|   |   |   |   |   |   |-- product-1.jpg
+|   |   |   |   |   |   |-- product-10.jpg
+|   |   |   |   |   |   |-- product-11.jpg
+|   |   |   |   |   |   |-- product-12.jpg
+|   |   |   |   |   |   |-- product-13.jpg
+|   |   |   |   |   |   |-- product-14.jpg
+|   |   |   |   |   |   |-- product-15.jpg
+|   |   |   |   |   |   |-- product-2.jpg
+|   |   |   |   |   |   |-- product-2-2.jpg
+|   |   |   |   |   |   |-- product-3.jpg
+|   |   |   |   |   |   |-- product-4.jpg
+|   |   |   |   |   |   |-- product-5.jpg
+|   |   |   |   |   |   |-- product-6.jpg
+|   |   |   |   |   |   |-- product-7.jpg
+|   |   |   |   |   |   |-- product-8.jpg
+|   |   |   |   |   |   |-- product-9.jpg
+|   |   |   |   |   |-- slider
+|   |   |   |   |   |   |-- slide-1.jpg
+|   |   |   |   |   |   |-- slide-1-480w.jpg
+|   |   |   |   |   |   |-- slide-2.jpg
+|   |   |   |   |   |   |-- slide-2-480w.jpg
+|   |   |   |   |   |-- bg-1.jpg
+|   |   |   |   |   |-- bg-2.jpg
+|   |   |   |   |   |-- logo.png
+|   |   |   |   |   |-- logo-footer.png
+|   |   |   |   |-- demo-4
+|   |   |   |   |   |-- banners
+|   |   |   |   |   |   |-- banner-1.png
+|   |   |   |   |   |   |-- banner-2.jpg
+|   |   |   |   |   |   |-- banner-3.png
+|   |   |   |   |   |   |-- banner-4.jpg
+|   |   |   |   |   |-- cats
+|   |   |   |   |   |   |-- 1.png
+|   |   |   |   |   |   |-- 2.png
+|   |   |   |   |   |   |-- 3.png
+|   |   |   |   |   |   |-- 4.png
+|   |   |   |   |   |   |-- 5.png
+|   |   |   |   |   |   |-- 6.png
+|   |   |   |   |   |-- deal
+|   |   |   |   |   |   |-- bg-1.jpg
+|   |   |   |   |   |   |-- bg-2.jpg
+|   |   |   |   |   |-- products
+|   |   |   |   |   |   |-- product-1.jpg
+|   |   |   |   |   |   |-- product-10.jpg
+|   |   |   |   |   |   |-- product-11.jpg
+|   |   |   |   |   |   |-- product-12.jpg
+|   |   |   |   |   |   |-- product-12-2.jpg
+|   |   |   |   |   |   |-- product-13.jpg
+|   |   |   |   |   |   |-- product-14.jpg
+|   |   |   |   |   |   |-- product-15.jpg
+|   |   |   |   |   |   |-- product-16.jpg
+|   |   |   |   |   |   |-- product-17.jpg
+|   |   |   |   |   |   |-- product-2.jpg
+|   |   |   |   |   |   |-- product-3.jpg
+|   |   |   |   |   |   |-- product-4.jpg
+|   |   |   |   |   |   |-- product-5.jpg
+|   |   |   |   |   |   |-- product-6.jpg
+|   |   |   |   |   |   |-- product-7.jpg
+|   |   |   |   |   |   |-- product-8.jpg
+|   |   |   |   |   |   |-- product-9.jpg
+|   |   |   |   |   |-- slider
+|   |   |   |   |   |   |-- slide-1.png
+|   |   |   |   |   |   |-- slide-2.png
+|   |   |   |   |   |-- bg-1.jpg
+|   |   |   |   |   |-- bg-5.jpg
+|   |   |   |   |   |-- camera.png
+|   |   |   |   |   |-- logo.png
+|   |   |   |   |   |-- logo-footer.png
+|   |   |   |   |-- demo-5
+|   |   |   |   |   |-- banners
+|   |   |   |   |   |   |-- banner-1.jpg
+|   |   |   |   |   |   |-- banner-2.jpg
+|   |   |   |   |   |   |-- banner-3.jpg
+|   |   |   |   |   |   |-- banner-4.jpg
+|   |   |   |   |   |-- instagram
+|   |   |   |   |   |   |-- 1.jpg
+|   |   |   |   |   |   |-- 2.jpg
+|   |   |   |   |   |   |-- 3.jpg
+|   |   |   |   |   |   |-- 4.jpg
+|   |   |   |   |   |   |-- 5.jpg
+|   |   |   |   |   |   |-- 6.jpg
+|   |   |   |   |   |   |-- 7.jpg
+|   |   |   |   |   |   |-- 8.jpg
+|   |   |   |   |   |   |-- 9.jpg
+|   |   |   |   |   |-- products
+|   |   |   |   |   |   |-- product-10-1.jpg
+|   |   |   |   |   |   |-- product-10-2.jpg
+|   |   |   |   |   |   |-- product-1-1.jpg
+|   |   |   |   |   |   |-- product-11-1.jpg
+|   |   |   |   |   |   |-- product-11-2.jpg
+|   |   |   |   |   |   |-- product-1-2.jpg
+|   |   |   |   |   |   |-- product-12-1.jpg
+|   |   |   |   |   |   |-- product-12-2.jpg
+|   |   |   |   |   |   |-- product-13.jpg
+|   |   |   |   |   |   |-- product-14.jpg
+|   |   |   |   |   |   |-- product-2-1.jpg
+|   |   |   |   |   |   |-- product-2-2.jpg
+|   |   |   |   |   |   |-- product-3-1.jpg
+|   |   |   |   |   |   |-- product-3-2.jpg
+|   |   |   |   |   |   |-- product-4-1.jpg
+|   |   |   |   |   |   |-- product-4-2.jpg
+|   |   |   |   |   |   |-- product-5-1.jpg
+|   |   |   |   |   |   |-- product-5-2.jpg
+|   |   |   |   |   |   |-- product-6-1.jpg
+|   |   |   |   |   |   |-- product-6-2.jpg
+|   |   |   |   |   |   |-- product-7-1.jpg
+|   |   |   |   |   |   |-- product-7-2.jpg
+|   |   |   |   |   |   |-- product-8-1.jpg
+|   |   |   |   |   |   |-- product-8-2.jpg
+|   |   |   |   |   |   |-- product-9-1.jpg
+|   |   |   |   |   |   |-- product-9-2.jpg
+|   |   |   |   |   |-- slider
+|   |   |   |   |   |   |-- slide-1.jpg
+|   |   |   |   |   |   |-- slide-2.jpg
+|   |   |   |   |   |-- bg-2.jpg
+|   |   |   |   |   |-- logo.png
+|   |   |   |   |   |-- logo-footer.png
+|   |   |   |   |-- demo-6
+|   |   |   |   |   |-- banners
+|   |   |   |   |   |   |-- banner-1.jpg
+|   |   |   |   |   |   |-- banner-2.jpg
+|   |   |   |   |   |   |-- banner-3.jpg
+|   |   |   |   |   |-- blog
+|   |   |   |   |   |   |-- post-1.jpg
+|   |   |   |   |   |   |-- post-2.jpg
+|   |   |   |   |   |   |-- post-3.jpg
+|   |   |   |   |   |-- deal
+|   |   |   |   |   |   |-- bg-1.jpg
+|   |   |   |   |   |   |-- product-1.jpg
+|   |   |   |   |   |   |-- product-2.jpg
+|   |   |   |   |   |-- products
+|   |   |   |   |   |   |-- product-10-1.jpg
+|   |   |   |   |   |   |-- product-10-2.jpg
+|   |   |   |   |   |   |-- product-10-2-thumb.jpg
+|   |   |   |   |   |   |-- product-10-thumb.jpg
+|   |   |   |   |   |   |-- product-1-1.jpg
+|   |   |   |   |   |   |-- product-11-1.jpg
+|   |   |   |   |   |   |-- product-11-2.jpg
+|   |   |   |   |   |   |-- product-1-2.jpg
+|   |   |   |   |   |   |-- product-12-1.jpg
+|   |   |   |   |   |   |-- product-12-2.jpg
+|   |   |   |   |   |   |-- product-1-2-thumb.jpg
+|   |   |   |   |   |   |-- product-1-3-thumb.jpg
+|   |   |   |   |   |   |-- product-1-thumb.jpg
+|   |   |   |   |   |   |-- product-2-1.jpg
+|   |   |   |   |   |   |-- product-2-2.jpg
+|   |   |   |   |   |   |-- product-3-1.jpg
+|   |   |   |   |   |   |-- product-3-2.jpg
+|   |   |   |   |   |   |-- product-4-1.jpg
+|   |   |   |   |   |   |-- product-4-2.jpg
+|   |   |   |   |   |   |-- product-4-2-thumb.jpg
+|   |   |   |   |   |   |-- product-4-thumb.jpg
+|   |   |   |   |   |   |-- product-5-1.jpg
+|   |   |   |   |   |   |-- product-5-2.jpg
+|   |   |   |   |   |   |-- product-6-1.jpg
+|   |   |   |   |   |   |-- product-6-2.jpg
+|   |   |   |   |   |   |-- product-7-1.jpg
+|   |   |   |   |   |   |-- product-7-2.jpg
+|   |   |   |   |   |   |-- product-7-2-thumb.jpg
+|   |   |   |   |   |   |-- product-7-thumb.jpg
+|   |   |   |   |   |   |-- product-8-1.jpg
+|   |   |   |   |   |   |-- product-8-2.jpg
+|   |   |   |   |   |   |-- product-9-1.jpg
+|   |   |   |   |   |   |-- product-9-2.jpg
+|   |   |   |   |   |-- slider
+|   |   |   |   |   |   |-- slide-1.jpg
+|   |   |   |   |   |   |-- slide-2.jpg
+|   |   |   |   |   |-- logo.png
+|   |   |   |   |   |-- logo-footer.png
+|   |   |   |   |-- demo-7
+|   |   |   |   |   |-- banners
+|   |   |   |   |   |   |-- banner-1.jpg
+|   |   |   |   |   |   |-- banner-2.jpg
+|   |   |   |   |   |   |-- banner-3.jpg
+|   |   |   |   |   |   |-- banner-4.jpg
+|   |   |   |   |   |   |-- banner-5.jpg
+|   |   |   |   |   |-- blog
+|   |   |   |   |   |   |-- post-1.jpg
+|   |   |   |   |   |   |-- post-2.jpg
+|   |   |   |   |   |   |-- post-3.jpg
+|   |   |   |   |   |   |-- post-4.jpg
+|   |   |   |   |   |-- products
+|   |   |   |   |   |   |-- product-10-1.jpg
+|   |   |   |   |   |   |-- product-10-2.jpg
+|   |   |   |   |   |   |-- product-1-1.jpg
+|   |   |   |   |   |   |-- product-11-1.jpg
+|   |   |   |   |   |   |-- product-11-2.jpg
+|   |   |   |   |   |   |-- product-1-2.jpg
+|   |   |   |   |   |   |-- product-12-1.jpg
+|   |   |   |   |   |   |-- product-12-2.jpg
+|   |   |   |   |   |   |-- product-13-1.jpg
+|   |   |   |   |   |   |-- product-13-2.jpg
+|   |   |   |   |   |   |-- product-14-1.jpg
+|   |   |   |   |   |   |-- product-14-2.jpg
+|   |   |   |   |   |   |-- product-15-1.jpg
+|   |   |   |   |   |   |-- product-15-2.jpg
+|   |   |   |   |   |   |-- product-2-1.jpg
+|   |   |   |   |   |   |-- product-2-2.jpg
+|   |   |   |   |   |   |-- product-3-1.jpg
+|   |   |   |   |   |   |-- product-3-2.jpg
+|   |   |   |   |   |   |-- product-4-1.jpg
+|   |   |   |   |   |   |-- product-4-2.jpg
+|   |   |   |   |   |   |-- product-5-1.jpg
+|   |   |   |   |   |   |-- product-5-2.jpg
+|   |   |   |   |   |   |-- product-6-1.jpg
+|   |   |   |   |   |   |-- product-6-2.jpg
+|   |   |   |   |   |   |-- product-7-1.jpg
+|   |   |   |   |   |   |-- product-7-2.jpg
+|   |   |   |   |   |   |-- product-8-1.jpg
+|   |   |   |   |   |   |-- product-8-2.jpg
+|   |   |   |   |   |   |-- product-9-1.jpg
+|   |   |   |   |   |   |-- product-9-2.jpg
+|   |   |   |   |   |-- logo.png
+|   |   |   |   |   |-- logo-footer.png
+|   |   |   |   |-- demo-8
+|   |   |   |   |   |-- banners
+|   |   |   |   |   |   |-- banner-1.jpg
+|   |   |   |   |   |   |-- banner-2.jpg
+|   |   |   |   |   |   |-- banner-3.jpg
+|   |   |   |   |   |   |-- banner-4.jpg
+|   |   |   |   |   |   |-- banner-5.jpg
+|   |   |   |   |   |   |-- banner-6.jpg
+|   |   |   |   |   |-- instagram
+|   |   |   |   |   |   |-- 1.jpg
+|   |   |   |   |   |   |-- 2.jpg
+|   |   |   |   |   |   |-- 3.jpg
+|   |   |   |   |   |   |-- 4.jpg
+|   |   |   |   |   |   |-- 5.jpg
+|   |   |   |   |   |   |-- 6.jpg
+|   |   |   |   |   |-- products
+|   |   |   |   |   |   |-- product-10-1.jpg
+|   |   |   |   |   |   |-- product-10-2.jpg
+|   |   |   |   |   |   |-- product-10-2-thumb.jpg
+|   |   |   |   |   |   |-- product-10-thumb.jpg
+|   |   |   |   |   |   |-- product-1-1.jpg
+|   |   |   |   |   |   |-- product-11-1.jpg
+|   |   |   |   |   |   |-- product-11-2.jpg
+|   |   |   |   |   |   |-- product-1-2.jpg
+|   |   |   |   |   |   |-- product-12-1.jpg
+|   |   |   |   |   |   |-- product-12-2.jpg
+|   |   |   |   |   |   |-- product-1-2-thumb.jpg
+|   |   |   |   |   |   |-- product-1-3-thumb.jpg
+|   |   |   |   |   |   |-- product-1-thumb.jpg
+|   |   |   |   |   |   |-- product-2-1.jpg
+|   |   |   |   |   |   |-- product-2-2.jpg
+|   |   |   |   |   |   |-- product-3-1.jpg
+|   |   |   |   |   |   |-- product-3-2.jpg
+|   |   |   |   |   |   |-- product-4-1.jpg
+|   |   |   |   |   |   |-- product-4-2.jpg
+|   |   |   |   |   |   |-- product-4-2-thumb.jpg
+|   |   |   |   |   |   |-- product-4-thumb.jpg
+|   |   |   |   |   |   |-- product-5-1.jpg
+|   |   |   |   |   |   |-- product-5-2.jpg
+|   |   |   |   |   |   |-- product-6-1.jpg
+|   |   |   |   |   |   |-- product-6-2.jpg
+|   |   |   |   |   |   |-- product-7-1.jpg
+|   |   |   |   |   |   |-- product-7-2.jpg
+|   |   |   |   |   |   |-- product-7-2-thumb.jpg
+|   |   |   |   |   |   |-- product-7-thumb.jpg
+|   |   |   |   |   |   |-- product-8-1.jpg
+|   |   |   |   |   |   |-- product-8-2.jpg
+|   |   |   |   |   |   |-- product-9-1.jpg
+|   |   |   |   |   |   |-- product-9-2.jpg
+|   |   |   |   |   |-- slider
+|   |   |   |   |   |   |-- img-1.png
+|   |   |   |   |   |   |-- img-2.png
+|   |   |   |   |   |   |-- slide-1.jpg
+|   |   |   |   |   |   |-- slide-2.jpg
+|   |   |   |   |   |-- logo.png
+|   |   |   |   |   |-- logo-footer.png
+|   |   |   |   |-- demo-9
+|   |   |   |   |   |-- banners
+|   |   |   |   |   |   |-- banner-1.jpg
+|   |   |   |   |   |   |-- banner-2.jpg
+|   |   |   |   |   |   |-- banner-3.jpg
+|   |   |   |   |   |   |-- banner-4.jpg
+|   |   |   |   |   |   |-- banner-5.jpg
+|   |   |   |   |   |   |-- banner-6.jpg
+|   |   |   |   |   |-- instagram
+|   |   |   |   |   |   |-- 1.jpg
+|   |   |   |   |   |   |-- 2.jpg
+|   |   |   |   |   |   |-- 3.jpg
+|   |   |   |   |   |   |-- 4.jpg
+|   |   |   |   |   |   |-- 5.jpg
+|   |   |   |   |   |   |-- 6.jpg
+|   |   |   |   |   |-- products
+|   |   |   |   |   |   |-- product-10-1.jpg
+|   |   |   |   |   |   |-- product-10-2.jpg
+|   |   |   |   |   |   |-- product-10-2-thumb.jpg
+|   |   |   |   |   |   |-- product-10-thumb.jpg
+|   |   |   |   |   |   |-- product-1-1.jpg
+|   |   |   |   |   |   |-- product-1-2.jpg
+|   |   |   |   |   |   |-- product-1-2-thumb.jpg
+|   |   |   |   |   |   |-- product-1-3-thumb.jpg
+|   |   |   |   |   |   |-- product-1-thumb.jpg
+|   |   |   |   |   |   |-- product-2-1.jpg
+|   |   |   |   |   |   |-- product-2-2.jpg
+|   |   |   |   |   |   |-- product-3-1.jpg
+|   |   |   |   |   |   |-- product-3-2.jpg
+|   |   |   |   |   |   |-- product-4-1.jpg
+|   |   |   |   |   |   |-- product-4-2.jpg
+|   |   |   |   |   |   |-- product-4-2-thumb.jpg
+|   |   |   |   |   |   |-- product-4-thumb.jpg
+|   |   |   |   |   |   |-- product-5-1.jpg
+|   |   |   |   |   |   |-- product-5-2.jpg
+|   |   |   |   |   |   |-- product-6-1.jpg
+|   |   |   |   |   |   |-- product-6-2.jpg
+|   |   |   |   |   |   |-- product-7-1.jpg
+|   |   |   |   |   |   |-- product-7-2.jpg
+|   |   |   |   |   |   |-- product-8-1.jpg
+|   |   |   |   |   |   |-- product-8-2.jpg
+|   |   |   |   |   |   |-- product-9-1.jpg
+|   |   |   |   |   |   |-- product-9-2.jpg
+|   |   |   |   |   |-- slider
+|   |   |   |   |   |   |-- slide-1.jpg
+|   |   |   |   |   |   |-- slide-1-480w.jpg
+|   |   |   |   |   |   |-- slide-2.jpg
+|   |   |   |   |   |   |-- slide-2-480w.jpg
+|   |   |   |   |   |   |-- slide-3.jpg
+|   |   |   |   |   |   |-- slide-3-480w.jpg
+|   |   |   |   |   |-- logo.png
+|   |   |   |   |   |-- logo-footer.png
+|   |   |   |-- demos-img
+|   |   |   |   |-- elements.png
+|   |   |   |   |-- header_splash.jpg
+|   |   |   |   |-- lazy.png
+|   |   |   |   |-- logo.png
+|   |   |   |   |-- support_bg.jpg
+|   |   |   |-- icons
+|   |   |   |   |-- apple-touch-icon.png
+|   |   |   |   |-- browserconfig.xml
+|   |   |   |   |-- favicon.ico
+|   |   |   |   |-- favicon-16x16.png
+|   |   |   |   |-- favicon-32x32.png
+|   |   |   |   |-- safari-pinned-tab.svg
+|   |   |   |   |-- site.html
+|   |   |   |-- menu
+|   |   |   |   |-- demos
+|   |   |   |   |   |-- 1.jpg
+|   |   |   |   |   |-- 10.jpg
+|   |   |   |   |   |-- 11.jpg
+|   |   |   |   |   |-- 12.jpg
+|   |   |   |   |   |-- 13.jpg
+|   |   |   |   |   |-- 14.jpg
+|   |   |   |   |   |-- 15.jpg
+|   |   |   |   |   |-- 16.jpg
+|   |   |   |   |   |-- 17.jpg
+|   |   |   |   |   |-- 18.jpg
+|   |   |   |   |   |-- 19.jpg
+|   |   |   |   |   |-- 2.jpg
+|   |   |   |   |   |-- 20.jpg
+|   |   |   |   |   |-- 21.jpg
+|   |   |   |   |   |-- 22.jpg
+|   |   |   |   |   |-- 23.jpg
+|   |   |   |   |   |-- 24.jpg
+|   |   |   |   |   |-- 3.jpg
+|   |   |   |   |   |-- 4.jpg
+|   |   |   |   |   |-- 5.jpg
+|   |   |   |   |   |-- 6.jpg
+|   |   |   |   |   |-- 7.jpg
+|   |   |   |   |   |-- 8.jpg
+|   |   |   |   |   |-- 9.jpg
+|   |   |   |   |-- banner-1.jpg
+|   |   |   |   |-- banner-2.jpg
+|   |   |   |-- popup
+|   |   |   |   |-- newsletter
+|   |   |   |   |   |-- img-1.jpg
+|   |   |   |   |   |-- logo.png
+|   |   |   |-- portfolio
+|   |   |   |   |-- 4cols
+|   |   |   |   |   |-- item-1.jpg
+|   |   |   |   |   |-- item-2.jpg
+|   |   |   |   |   |-- item-3.jpg
+|   |   |   |   |   |-- item-4.jpg
+|   |   |   |   |   |-- item-5.jpg
+|   |   |   |   |   |-- item-6.jpg
+|   |   |   |   |   |-- item-7.jpg
+|   |   |   |   |   |-- item-8.jpg
+|   |   |   |   |-- fullwidth
+|   |   |   |   |   |-- item-1.jpg
+|   |   |   |   |   |-- item-2.jpg
+|   |   |   |   |   |-- item-3.jpg
+|   |   |   |   |   |-- item-4.jpg
+|   |   |   |   |   |-- item-5.jpg
+|   |   |   |   |   |-- item-6.jpg
+|   |   |   |   |   |-- item-7.jpg
+|   |   |   |   |   |-- item-8.jpg
+|   |   |   |   |-- masonry-3cols
+|   |   |   |   |   |-- item-1.jpg
+|   |   |   |   |   |-- item-2.jpg
+|   |   |   |   |   |-- item-3.jpg
+|   |   |   |   |   |-- item-4.jpg
+|   |   |   |   |   |-- item-5.jpg
+|   |   |   |   |   |-- item-6.jpg
+|   |   |   |   |-- masonry-4cols
+|   |   |   |   |   |-- item-1.jpg
+|   |   |   |   |   |-- item-2.jpg
+|   |   |   |   |   |-- item-3.jpg
+|   |   |   |   |   |-- item-4.jpg
+|   |   |   |   |   |-- item-5.jpg
+|   |   |   |   |   |-- item-6.jpg
+|   |   |   |   |   |-- item-7.jpg
+|   |   |   |   |   |-- item-8.jpg
+|   |   |   |   |-- item-1.jpg
+|   |   |   |   |-- item-2.jpg
+|   |   |   |   |-- item-3.jpg
+|   |   |   |   |-- item-4.jpg
+|   |   |   |   |-- item-5.jpg
+|   |   |   |   |-- item-6.jpg
+|   |   |   |-- products
+|   |   |   |   |-- cart
+|   |   |   |   |   |-- product-1.jpg
+|   |   |   |   |   |-- product-2.jpg
+|   |   |   |   |-- elements
+|   |   |   |   |   |-- 5cols
+|   |   |   |   |   |   |-- product-1.jpg
+|   |   |   |   |   |   |-- product-2.jpg
+|   |   |   |   |   |   |-- product-3.jpg
+|   |   |   |   |   |   |-- product-4.jpg
+|   |   |   |   |   |   |-- product-5.jpg
+|   |   |   |   |   |-- product-1.jpg
+|   |   |   |   |   |-- product-1-2-thumb.jpg
+|   |   |   |   |   |-- product-1-3-thumb.jpg
+|   |   |   |   |   |-- product-1-thumb.jpg
+|   |   |   |   |   |-- product-2.jpg
+|   |   |   |   |   |-- product-3.jpg
+|   |   |   |   |   |-- product-3-2.jpg
+|   |   |   |   |   |-- product-4.jpg
+|   |   |   |   |   |-- product-5.jpg
+|   |   |   |   |   |-- product-6.jpg
+|   |   |   |   |   |-- product-thumb-1.jpg
+|   |   |   |   |   |-- product-thumb-2.jpg
+|   |   |   |   |   |-- product-thumb-3.jpg
+|   |   |   |   |   |-- product-thumb-4.jpg
+|   |   |   |   |   |-- product-thumb-5.jpg
+|   |   |   |   |-- single
+|   |   |   |   |   |-- centered
+|   |   |   |   |   |   |-- 1.jpg
+|   |   |   |   |   |   |-- 1-big.jpg
+|   |   |   |   |   |   |-- 1-small.jpg
+|   |   |   |   |   |   |-- 2-big.jpg
+|   |   |   |   |   |   |-- 2-small.jpg
+|   |   |   |   |   |   |-- 3-big.jpg
+|   |   |   |   |   |   |-- 3-small.jpg
+|   |   |   |   |   |   |-- 4-big.jpg
+|   |   |   |   |   |   |-- 4-small.jpg
+|   |   |   |   |   |-- extended
+|   |   |   |   |   |   |-- 1-big.jpg
+|   |   |   |   |   |   |-- 1-small.jpg
+|   |   |   |   |   |   |-- 2-big.jpg
+|   |   |   |   |   |   |-- 2-small.jpg
+|   |   |   |   |   |   |-- 3.jpg
+|   |   |   |   |   |   |-- 3-big.jpg
+|   |   |   |   |   |   |-- 3-small.jpg
+|   |   |   |   |   |   |-- 4-big.jpg
+|   |   |   |   |   |   |-- 4-small.jpg
+|   |   |   |   |   |   |-- bg-1.jpg
+|   |   |   |   |   |   |-- bg-2.jpg
+|   |   |   |   |   |   |-- bg-3.jpg
+|   |   |   |   |   |   |-- sign.png
+|   |   |   |   |   |-- fullwidth
+|   |   |   |   |   |   |-- 1-big.jpg
+|   |   |   |   |   |   |-- 1-small.jpg
+|   |   |   |   |   |   |-- 1-thumb.jpg
+|   |   |   |   |   |   |-- 2-big.jpg
+|   |   |   |   |   |   |-- 2-small.jpg
+|   |   |   |   |   |   |-- 2-thumb.jpg
+|   |   |   |   |   |   |-- 3.jpg
+|   |   |   |   |   |   |-- 3-big.jpg
+|   |   |   |   |   |   |-- 3-small.jpg
+|   |   |   |   |   |   |-- 3-thumb.jpg
+|   |   |   |   |   |   |-- 4-big.jpg
+|   |   |   |   |   |   |-- 4-small.jpg
+|   |   |   |   |   |   |-- 4-thumb.jpg
+|   |   |   |   |   |-- gallery
+|   |   |   |   |   |   |-- 1.jpg
+|   |   |   |   |   |   |-- 2.jpg
+|   |   |   |   |   |   |-- 3.jpg
+|   |   |   |   |   |   |-- 4.jpg
+|   |   |   |   |   |-- masonry
+|   |   |   |   |   |   |-- 1.jpg
+|   |   |   |   |   |   |-- 1-thumb.jpg
+|   |   |   |   |   |   |-- 2-big.jpg
+|   |   |   |   |   |   |-- 2-small.jpg
+|   |   |   |   |   |   |-- 2-thumb.jpg
+|   |   |   |   |   |   |-- 3-big.jpg
+|   |   |   |   |   |   |-- 3-small.jpg
+|   |   |   |   |   |   |-- 3-thumb.jpg
+|   |   |   |   |   |   |-- 4-big.jpg
+|   |   |   |   |   |   |-- 4-small.jpg
+|   |   |   |   |   |-- sidebar
+|   |   |   |   |   |   |-- 1.jpg
+|   |   |   |   |   |   |-- 2.jpg
+|   |   |   |   |   |   |-- 3.jpg
+|   |   |   |   |   |   |-- 4.jpg
+|   |   |   |   |   |-- sidebar-gallery
+|   |   |   |   |   |   |-- 1.jpg
+|   |   |   |   |   |   |-- 1-big.jpg
+|   |   |   |   |   |   |-- 1-small.jpg
+|   |   |   |   |   |   |-- 2-big.jpg
+|   |   |   |   |   |   |-- 2-small.jpg
+|   |   |   |   |   |   |-- 3-big.jpg
+|   |   |   |   |   |   |-- 3-small.jpg
+|   |   |   |   |   |   |-- 4-big.jpg
+|   |   |   |   |   |   |-- 4-small.jpg
+|   |   |   |   |   |-- sticky
+|   |   |   |   |   |   |-- 1.jpg
+|   |   |   |   |   |   |-- 2.jpg
+|   |   |   |   |   |   |-- 3.jpg
+|   |   |   |   |   |   |-- 4.jpg
+|   |   |   |   |   |-- 1.jpg
+|   |   |   |   |   |-- 1-big.jpg
+|   |   |   |   |   |-- 1-small.jpg
+|   |   |   |   |   |-- 1-thumb.jpg
+|   |   |   |   |   |-- 2-big.jpg
+|   |   |   |   |   |-- 2-small.jpg
+|   |   |   |   |   |-- 2-thumb.jpg
+|   |   |   |   |   |-- 3-big.jpg
+|   |   |   |   |   |-- 3-small.jpg
+|   |   |   |   |   |-- 4-big.jpg
+|   |   |   |   |   |-- 4-small.jpg
+|   |   |   |   |-- sticky
+|   |   |   |   |   |-- product-1.jpg
+|   |   |   |   |-- table
+|   |   |   |   |   |-- product-1.jpg
+|   |   |   |   |   |-- product-2.jpg
+|   |   |   |   |   |-- product-3.jpg
+|   |   |   |   |-- product-1.jpg
+|   |   |   |   |-- product-10.jpg
+|   |   |   |   |-- product-11.jpg
+|   |   |   |   |-- product-11-2-thumb.jpg
+|   |   |   |   |-- product-11-3-thumb.jpg
+|   |   |   |   |-- product-11-thumb.jpg
+|   |   |   |   |-- product-12.jpg
+|   |   |   |   |-- product-13.jpg
+|   |   |   |   |-- product-13-2-thumb.jpg
+|   |   |   |   |-- product-13-thumb.jpg
+|   |   |   |   |-- product-14.jpg
+|   |   |   |   |-- product-14-2-thumb.jpg
+|   |   |   |   |-- product-14-3-thumb.jpg
+|   |   |   |   |-- product-14-thumb.jpg
+|   |   |   |   |-- product-15.jpg
+|   |   |   |   |-- product-2.jpg
+|   |   |   |   |-- product-3.jpg
+|   |   |   |   |-- product-4.jpg
+|   |   |   |   |-- product-4-2-thumb.jpg
+|   |   |   |   |-- product-4-3-thumb.jpg
+|   |   |   |   |-- product-4-thumb.jpg
+|   |   |   |   |-- product-5.jpg
+|   |   |   |   |-- product-5-2-thumb.jpg
+|   |   |   |   |-- product-5-thumb.jpg
+|   |   |   |   |-- product-6.jpg
+|   |   |   |   |-- product-7.jpg
+|   |   |   |   |-- product-8.jpg
+|   |   |   |   |-- product-8-2-thumb.jpg
+|   |   |   |   |-- product-8-thumb.jpg
+|   |   |   |   |-- product-9.jpg
+|   |   |   |   |-- product-9-2-thumb.jpg
+|   |   |   |   |-- product-9-3-thumb.jpg
+|   |   |   |   |-- product-9-thumb.jpg
+|   |   |   |-- slider
+|   |   |   |   |-- slide-1.jpg
+|   |   |   |   |-- slide-1-480w.jpg
+|   |   |   |   |-- slide-2.jpg
+|   |   |   |   |-- slide-2-480w.jpg
+|   |   |   |   |-- slide-3.jpg
+|   |   |   |   |-- slide-3-480w.jpg
+|   |   |   |-- stores
+|   |   |   |   |-- img-1.jpg
+|   |   |   |   |-- img-2.jpg
+|   |   |   |-- team
+|   |   |   |   |-- about-2
+|   |   |   |   |   |-- member-1.jpg
+|   |   |   |   |   |-- member-2.jpg
+|   |   |   |   |   |-- member-3.jpg
+|   |   |   |   |   |-- member-4.jpg
+|   |   |   |   |   |-- member-5.jpg
+|   |   |   |   |   |-- member-6.jpg
+|   |   |   |   |   |-- member-7.jpg
+|   |   |   |   |   |-- member-8.jpg
+|   |   |   |   |-- member-1.jpg
+|   |   |   |   |-- member-2.jpg
+|   |   |   |   |-- member-3.jpg
+|   |   |   |-- testimonials
+|   |   |   |   |-- user-1.jpg
+|   |   |   |   |-- user-2.jpg
+|   |   |   |-- video
+|   |   |   |   |-- bg-1.jpg
+|   |   |   |   |-- bg-2.jpg
+|   |   |   |   |-- poster-1.jpg
+|   |   |   |   |-- poster-2.jpg
+|   |   |   |   |-- poster-3.jpg
+|   |   |   |-- about-header-bg.jpg
+|   |   |   |-- contact-header-bg.jpg
+|   |   |   |-- elements.png
+|   |   |   |-- logo.png
+|   |   |   |-- logo-footer.png
+|   |   |   |-- logo-icon.png
+|   |   |   |-- nav-next-shadow.png
+|   |   |   |-- nav-prev-shadow.png
+|   |   |   |-- page-header-bg.jpg
+|   |   |   |-- payments.png
+|   |   |   |-- payments-summary.png
+|   |   |-- js
+|   |   |   |-- demos
+|   |   |   |   |-- demo-10.js
+|   |   |   |   |-- demo-11.js
+|   |   |   |   |-- demo-12.js
+|   |   |   |   |-- demo-13.js
+|   |   |   |   |-- demo-14.js
+|   |   |   |   |-- demo-15.js
+|   |   |   |   |-- demo-16.js
+|   |   |   |   |-- demo-17.js
+|   |   |   |   |-- demo-18.js
+|   |   |   |   |-- demo-19.js
+|   |   |   |   |-- demo-2.js
+|   |   |   |   |-- demo-20.js
+|   |   |   |   |-- demo-21.js
+|   |   |   |   |-- demo-24.js
+|   |   |   |   |-- demo-3.js
+|   |   |   |   |-- demo-4.js
+|   |   |   |   |-- demo-5.js
+|   |   |   |   |-- demo-6.js
+|   |   |   |   |-- demo-7.js
+|   |   |   |   |-- demo-8.js
+|   |   |   |   |-- demo-9.js
+|   |   |   |-- bootstrap.bundle.min.js
+|   |   |   |-- bootstrap-input-spinner.js
+|   |   |   |-- imagesloaded.pkgd.min.js
+|   |   |   |-- isotope.pkgd.min.js
+|   |   |   |-- jquery.countdown.min.js
+|   |   |   |-- jquery.countTo.js
+|   |   |   |-- jquery.elevateZoom.min.js
+|   |   |   |-- jquery.hoverIntent.min.js
+|   |   |   |-- jquery.magnific-popup.min.js
+|   |   |   |-- jquery.min.js
+|   |   |   |-- jquery.plugin.min.js
+|   |   |   |-- jquery.sticky-kit.min.js
+|   |   |   |-- jquery.waypoints.min.js
+|   |   |   |-- main.js
+|   |   |   |-- nouislider.min.js
+|   |   |   |-- owl.carousel.min.js
+|   |   |   |-- superfish.min.js
+|   |   |   |-- wNumb.js
+|   |   |-- main.js
+|   |-- cart.php
+|   |-- checkout.php
+|   |-- index.php
+|   |-- login.php
+|   |-- logout.php
+|   |-- my-orders.php
+|   |-- order-confirmation.php
+|   |-- product-detail.php
+|   |-- products.php
+|   |-- stripe-checkout.php
+|   |-- stripe-success.php
+|   |-- test-email.php
+|-- screenshots
+|   |-- acessories products.PNG
+|   |-- admin-dashboard.PNG
+|   |-- cart.PNG
+|   |-- categories.PNG
+|   |-- homepage.PNG
+|   |-- men products.PNG
+|   |-- women products.PNG
+|-- .gitignore
+|-- .htaccess
+|-- composer.json
+|-- composer.lock
+|-- create-admin.php
+|-- index.php
